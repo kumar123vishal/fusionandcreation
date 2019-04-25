@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'fusionandcreation' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'fusion' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'dell_0587' );
+define( 'DB_PASSWORD', 'Fusion@4321' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
