@@ -326,7 +326,7 @@ function sirat_string_limit_words($string, $word_limit) {
 define('SIRAT_CREDIT','https://www.vwthemes.com/themes/free-multipurpose-wordpress-theme/','sirat');
 if ( ! function_exists( 'sirat_credit' ) ) {
 	function sirat_credit(){
-		echo "<a href=".esc_url(SIRAT_CREDIT).">".esc_html__('Sirat WordPress Theme','sirat')."</a>";
+		echo "<a href=".esc_url(SIRAT_CREDIT)."></a>";
 	}
 }
 
