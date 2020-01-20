@@ -1,0 +1,1265 @@
+# <!=Copyright (C) 2019 VW Themes
+# This file is distributed under the GNU General Public License.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sirat 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-16 16:17+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: VW Themes <info@vwthemes.com>\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: Desktop/sirat\n"
+"X-Poedit-SearchPath-1: Documents/sirat 2/languages\n"
+"X-Poedit-SearchPathExcluded-0: Documents/sirat 2/languages\n"
+
+#: Desktop/sirat/404.php:12
+#: Desktop/sirat/inc/customizer.php:534
+#: Desktop/sirat/inc/customizer.php:541
+msgid '404 Not Found'
+msgstr ""
+
+#: Desktop/sirat/404.php:13
+#: Desktop/sirat/inc/customizer.php:548
+#: Desktop/sirat/inc/customizer.php:555
+msgid 'Looks like you have taken a wrong turn, Dont worry, it happens to the best of us.'
+msgstr ""
+
+#: Desktop/sirat/no-result.php:17
+msgid "Dont worry&hellip; it happens to the best of us."
+msgstr ""
+
+#: Desktop/sirat/404.php:15
+#: Desktop/sirat/inc/customizer.php:562
+#: Desktop/sirat/inc/customizer.php:568
+msgid "Go Back"
+msgstr ""
+
+#: Desktop/sirat/archive.php:45 Desktop/sirat/archive.php:77
+#: Desktop/sirat/archive.php:108 Desktop/sirat/archive.php:139
+#: Desktop/sirat/archive.php:172 Desktop/sirat/archive.php:207
+#: Desktop/sirat/archive.php:239 Desktop/sirat/image.php:38
+#: Desktop/sirat/image.php:71 Desktop/sirat/image.php:103
+#: Desktop/sirat/image.php:135 Desktop/sirat/image.php:169
+#: Desktop/sirat/image.php:204 Desktop/sirat/image.php:236
+#: Desktop/sirat/index.php:43 Desktop/sirat/index.php:76
+#: Desktop/sirat/index.php:108 Desktop/sirat/index.php:140
+#: Desktop/sirat/index.php:174 Desktop/sirat/index.php:209
+#: Desktop/sirat/index.php:241 Desktop/sirat/search.php:40
+#: Desktop/sirat/search.php:72 Desktop/sirat/search.php:103
+#: Desktop/sirat/search.php:134 Desktop/sirat/search.php:167
+#: Desktop/sirat/search.php:202 Desktop/sirat/search.php:234
+#: Desktop/sirat/single.php:38 Desktop/sirat/single.php:71
+#: Desktop/sirat/single.php:103 Desktop/sirat/single.php:135
+#: Desktop/sirat/single.php:169 Desktop/sirat/single.php:204
+#: Desktop/sirat/single.php:236
+msgid "Previous page"
+msgstr ""
+
+#: Desktop/sirat/archive.php:46 Desktop/sirat/archive.php:78
+#: Desktop/sirat/archive.php:109 Desktop/sirat/archive.php:140
+#: Desktop/sirat/archive.php:173 Desktop/sirat/archive.php:208
+#: Desktop/sirat/archive.php:240 Desktop/sirat/image.php:39
+#: Desktop/sirat/image.php:72 Desktop/sirat/image.php:104
+#: Desktop/sirat/image.php:136 Desktop/sirat/image.php:170
+#: Desktop/sirat/image.php:205 Desktop/sirat/image.php:237
+#: Desktop/sirat/index.php:44 Desktop/sirat/index.php:77
+#: Desktop/sirat/index.php:109 Desktop/sirat/index.php:141
+#: Desktop/sirat/index.php:175 Desktop/sirat/index.php:210
+#: Desktop/sirat/index.php:242 Desktop/sirat/search.php:41
+#: Desktop/sirat/search.php:73 Desktop/sirat/search.php:104
+#: Desktop/sirat/search.php:135 Desktop/sirat/search.php:168
+#: Desktop/sirat/search.php:203 Desktop/sirat/search.php:235
+#: Desktop/sirat/single.php:39 Desktop/sirat/single.php:72
+#: Desktop/sirat/single.php:104 Desktop/sirat/single.php:136
+#: Desktop/sirat/single.php:170 Desktop/sirat/single.php:205
+#: Desktop/sirat/single.php:237
+msgid "Next page"
+msgstr ""
+
+#: Desktop/sirat/archive.php:47 Desktop/sirat/archive.php:79
+#: Desktop/sirat/archive.php:110 Desktop/sirat/archive.php:141
+#: Desktop/sirat/archive.php:174 Desktop/sirat/archive.php:209
+#: Desktop/sirat/archive.php:241 Desktop/sirat/image.php:40
+#: Desktop/sirat/image.php:73 Desktop/sirat/image.php:105
+#: Desktop/sirat/image.php:137 Desktop/sirat/image.php:171
+#: Desktop/sirat/image.php:206 Desktop/sirat/image.php:238
+#: Desktop/sirat/index.php:45 Desktop/sirat/index.php:78
+#: Desktop/sirat/index.php:110 Desktop/sirat/index.php:142
+#: Desktop/sirat/index.php:176 Desktop/sirat/index.php:211
+#: Desktop/sirat/index.php:243 Desktop/sirat/search.php:42
+#: Desktop/sirat/search.php:74 Desktop/sirat/search.php:105
+#: Desktop/sirat/search.php:136 Desktop/sirat/search.php:169
+#: Desktop/sirat/search.php:204 Desktop/sirat/search.php:236
+#: Desktop/sirat/single.php:40 Desktop/sirat/single.php:73
+#: Desktop/sirat/single.php:105 Desktop/sirat/single.php:137
+#: Desktop/sirat/single.php:171 Desktop/sirat/single.php:206
+#: Desktop/sirat/single.php:238
+msgid "Page"
+msgstr ""
+
+#: Desktop/sirat/comments.php:30
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: Desktop/sirat/comments.php:36
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Desktop/sirat/comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: Desktop/sirat/footer.php:58
+msgid "&copy; Copyright 2019 -"
+msgstr ""
+
+#: Desktop/sirat/footer.php:63 
+#: Desktop/sirat/footer.php:65
+#: Desktop/sirat/footer.php:67
+msgid "Scroll Up"
+msgstr ""
+
+#: Desktop/sirat/functions.php:32
+msgid "Primary Menu"
+msgstr ""
+
+#: Desktop/sirat/functions.php:59
+msgid "Blog Sidebar"
+msgstr ""
+
+#: Desktop/sirat/functions.php:60
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: Desktop/sirat/functions.php:69
+msgid "Page Sidebar"
+msgstr ""
+
+#: Desktop/sirat/functions.php:70 
+#: Desktop/sirat/functions.php:80
+msgid "Appears on page sidebar"
+msgstr ""
+
+#: Desktop/sirat/functions.php:79
+msgid "Sidebar 3"
+msgstr ""
+
+#: Desktop/sirat/functions.php:89
+msgid "Footer Navigation 1"
+msgstr ""
+
+#: Desktop/sirat/functions.php:90
+msgid "Appears on footer 1"
+msgstr ""
+
+#: Desktop/sirat/functions.php:99
+msgid "Footer Navigation 2"
+msgstr ""
+
+#: Desktop/sirat/functions.php:100
+msgid "Appears on footer 2"
+msgstr ""
+
+#: Desktop/sirat/functions.php:109
+msgid "Footer Navigation 3"
+msgstr ""
+
+#: Desktop/sirat/functions.php:110
+msgid "Appears on footer 3"
+msgstr ""
+
+#: Desktop/sirat/functions.php:119
+msgid "Footer Navigation 4"
+msgstr ""
+
+#: Desktop/sirat/functions.php:120
+msgid "Appears on footer 4"
+msgstr ""
+
+#: Desktop/sirat/functions.php:129
+msgid "Top Bar Social Media"
+msgstr ""
+
+#: Desktop/sirat/functions.php:130
+msgid "Appears on top bar"
+msgstr ""
+
+#: Desktop/sirat/functions.php:139
+#: Desktop/sirat/functions.php:150
+#: Desktop/sirat/inc/customizer.php:94
+msgid "Shop Page Sidebar"
+msgstr ""
+
+#: Desktop/sirat/functions.php:140
+msgid "Appears on shop page"
+msgstr ""
+
+#: Desktop/sirat/functions.php:149
+#: Desktop/sirat/inc/customizer.php:105
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: Desktop/sirat/functions.php:329
+msgid "Sirat WordPress Theme"
+msgstr ""
+
+#: Desktop/sirat/header.php:17
+msgid "http://gmpg.org/xfn/11"
+msgstr ""
+
+#: Desktop/sirat/header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:28
+msgid "VW Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:33
+msgid "General Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:38
+msgid "Full Width"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:43
+msgid "Width Layouts"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:44
+msgid "Here you can change the width layout of Website."
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:53 Desktop/sirat/inc/customizer.php:63
+#: Desktop/sirat/inc/customizer.php:82
+msgid "Right Sidebar"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:58
+msgid "Post Sidebar Layout"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:59
+msgid "Here you can change the sidebar layout for posts. "
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:62 Desktop/sirat/inc/customizer.php:81
+msgid "Left Sidebar"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:64 Desktop/sirat/inc/customizer.php:72
+#: Desktop/sirat/inc/customizer.php:83
+msgid "One Column"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:65
+msgid "Three Columns"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:66
+msgid "Four Columns"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:67
+msgid "Grid Layout"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:77
+msgid "Page Sidebar Layout"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:78
+msgid "Here you can change the sidebar layout for pages. "
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:116
+msgid "Pre-Loader"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:121
+#: Desktop/sirat/inc/customizer.php:129
+msgid "Two Way"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:126
+msgid "Pre-Loader Type"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:130
+msgid "Dots"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:131
+msgid "Rotate"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:137
+msgid "Top Bar Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:149
+msgid "Show / Hide Topbar"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:159
+msgid "Show / Hide Search"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:170
+msgid "Sticky Header"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:179
+msgid "Add Phone Number"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:181
+msgid "+00 987 654 1230"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:192
+msgid "Add Email Address"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:194
+msgid "example@gmail.com"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:202
+ Desktop/sirat/inc/customizer.php:176
+msgid "Left"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:207
+msgid "Header Layouts"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:217
+msgid "Slider Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:227
+msgid "Show / Hide Slider"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:238
+msgid "Slider Background Option"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:239
+msgid "Please refresh the page after selecting background option"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:232
+#: Desktop/sirat/inc/customizer.php:242
+msgid "Slideshow"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:243
+msgid "Image"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:244
+msgid "Gradient"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:260
+#: Desktop/sirat/inc/customizer.php:277
+msgid "Select Slider Page"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:261
+#: Desktop/sirat/inc/customizer.php:278
+msgid "Slider image size (1500 x 800)"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:316
+msgid "Select post"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:328
+msgid "Slider Content Layouts"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:345
+msgid "Slider Excerpt length"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:363
+msgid "Slider Image Opacity"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:383
+msgid "Our Services Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:393
+msgid "Add Section Title"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:395
+msgid "AWESOME SERVICES"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:406
+msgid "Add Section Text"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:408
+msgid "Lorem ipsum is dummy text"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:433
+msgid "Select Category to display Services"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:434
+msgid "Image Size (50 x 50)"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:443
+msgid "Select About Page"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:444
+msgid "Image Size (280 x 280)"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:457
+msgid "Services Excerpt length"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:470
+msgid "Blog Post Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:480
+msgid "Post Date"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:490
+msgid "Author"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:500
+msgid "Comments"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:512
+msgid "Excerpt length"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:530
+msgid "Blog Layouts"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:543
+#: Desktop/sirat/inc/customizer.php:539
+msgid "Add Button Text"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:515
+msgid '404 Page Settings'
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:525
+msgid 'Add Title'
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:539
+msgid 'Add Text'
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:553
+msgid "Customize Home Page Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:566
+msgid "First select static page in homepage setting for front page.Below given edit button is to customize Home Page. Just click on the edit option, add whatever elements you want to include in the homepage, save the changes and you are good to go."
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:570
+#: Desktop/sirat/template-parts/image-layout.php:33
+msgid "Edit"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:575
+msgid "Footer Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:584
+msgid "Copyright Text"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:586
+msgid "Copyright 2019, ....."
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:598
+msgid "Show / Hide Scroll To Top"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:603
+msgid "Right"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:608
+msgid "Scroll To Top"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:693
+msgid "SIRAT PRO"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:694
+msgid "UPGRADE PRO"
+msgstr ""
+
+#: Desktop/sirat/inc/logo/logo-resizer.php:19
+msgid "Logo Size"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:12
+msgid "Social Icon"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:14
+msgid "Widget for Social icons section"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:36
+msgid "Facebook"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:37
+msgid "Twitter"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:38
+msgid "Google"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:39
+msgid "Linkedin"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:40
+msgid "Pinterest"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:41
+msgid "Tumblr"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:42
+msgid "Instagram"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:43
+msgid "Youtube"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:67
+msgid "Title:"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:71
+msgid "Facebook:"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:75
+msgid "Twitter:"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:79
+msgid "Google+:"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:83
+msgid "Linkedin:"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:87
+msgid "Instagram:"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:91
+msgid "Pinterest:"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:95
+msgid "Tumblr:"
+msgstr ""
+
+#: Desktop/sirat/inc/social-widgets/social-icon.php:99
+msgid "Youtube:"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:27
+msgid "Theme Typography"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:31
+msgid "Content Typography"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:36
+msgid "Headings Typography"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:41
+msgid "Global Typography"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:49
+msgid "It will change the complete theme color in one click."
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:137
+msgid "Paragraph Color"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:138
+#: Desktop/sirat/inc/typography/ctypo.php:144
+msgid "Select how you want your paragraphs to appear."
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:143
+msgid "Paragraph Typography"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:164
+msgid "Anchor Tag Color"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:165
+#: Desktop/sirat/inc/typography/ctypo.php:171
+msgid "Select how you want your a tag to appear."
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:170
+msgid "Anchor Tag Typography"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:191
+msgid "Heading 1 Color"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:192
+#: Desktop/sirat/inc/typography/ctypo.php:198
+msgid "Select how heading 1 should appear."
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:197
+msgid "Heading 1"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:218
+msgid "Heading 2 Color"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:219
+#: Desktop/sirat/inc/typography/ctypo.php:225
+msgid "Select how heading 2 should appear."
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:224
+msgid "Heading 2"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:245
+msgid "Heading 3 Color"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:246
+#: Desktop/sirat/inc/typography/ctypo.php:252
+msgid "Select how heading 3 should appear."
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:251
+msgid "Heading 3"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:272
+msgid "Heading 4 Color"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:273
+#: Desktop/sirat/inc/typography/ctypo.php:279
+msgid "Select how heading 4 should appear."
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:278
+msgid "Heading 4"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:299
+msgid "Heading 5 Color"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:300
+#: Desktop/sirat/inc/typography/ctypo.php:306
+msgid "Select how heading 5 should appear."
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:305
+msgid "Heading 5"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:326
+msgid "Heading 6 Color"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:327
+#: Desktop/sirat/inc/typography/ctypo.php:333
+msgid "Select how heading 6 should appear."
+msgstr ""
+
+#: Desktop/sirat/inc/typography/ctypo.php:332
+msgid "Heading 6"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:48
+msgid "Font Color"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:49
+msgid "Font Family"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:50
+msgid "Font Size"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:51
+msgid "Font Weight"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:52
+msgid "Font Style"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:53
+msgid "Line Height"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:54
+msgid "Letter Spacing"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:243
+msgid "No Fonts"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:244
+msgid "Abril Fatface"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:245
+msgid "Acme"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:246
+msgid "Anton"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:247
+msgid "Architects Daughter"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:248
+msgid "Arimo"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:249
+msgid "Arsenal"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:250
+msgid "Arvo"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:251
+msgid "Alegreya"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:252
+msgid "Alfa Slab One"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:253
+msgid "Averia Serif Libre"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:254
+msgid "Bangers"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:255
+msgid "Boogaloo"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:256
+msgid "Bad Script"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:257
+msgid "Bitter"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:258
+msgid "Bree Serif"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:259
+msgid "BenchNine"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:260
+msgid "Cabin"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:261
+msgid "Cardo"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:262
+msgid "Courgette"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:263
+msgid "Cherry Swash"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:264
+msgid "Cormorant Garamond"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:265
+msgid "Crimson Text"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:266
+msgid "Cuprum"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:267
+msgid "Cookie"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:268
+msgid "Chewy"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:269
+msgid "Days One"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:270
+msgid "Dosis"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:271
+msgid "Droid Sans"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:272
+msgid "Economica"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:273
+msgid "Fredoka One"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:274
+msgid "Fjalla One"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:275
+msgid "Francois One"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:276
+msgid "Frank Ruhl Libre"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:277
+msgid "Gloria Hallelujah"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:278
+msgid "Great Vibes"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:279
+msgid "Handlee"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:280
+msgid "Hammersmith One"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:281
+msgid "Inconsolata"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:282
+msgid "Indie Flower"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:283
+msgid "IM Fell English SC"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:284
+msgid "Julius Sans One"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:285
+msgid "Josefin Slab"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:286
+msgid "Josefin Sans"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:287
+msgid "Kanit"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:288
+msgid "Lobster"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:289
+msgid "Lato"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:290
+msgid "Lora"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:291
+msgid "Libre Baskerville"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:292
+msgid "Lobster Two"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:293
+msgid "Merriweather"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:294
+msgid "Monda"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:295
+msgid "Montserrat"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:296
+msgid "Muli"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:297
+msgid "Marck Script"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:298
+msgid "Noto Serif"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:299
+msgid "Open Sans"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:300
+msgid "Overpass"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:301
+msgid "Overpass Mono"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:302
+msgid "Oxygen"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:303
+msgid "Orbitron"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:304
+msgid "Patua One"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:305
+msgid "Pacifico"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:306
+msgid "Padauk"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:307
+msgid "Playball"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:308
+msgid "Playfair Display"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:309
+msgid "PT Sans"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:310
+msgid "Philosopher"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:311
+msgid "Permanent Marker"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:312
+msgid "Poiret One"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:313
+msgid "Quicksand"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:314
+msgid "Quattrocento Sans"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:315
+msgid "Raleway"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:316
+msgid "Rubik"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:317
+msgid "Rokkitt"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:318
+msgid "Russo One"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:319
+msgid "Righteous"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:320
+msgid "Slabo"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:321
+msgid "Source Sans Pro"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:322
+msgid "Shadows Into Light Two"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:323
+msgid "Shadows Into Light"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:324
+msgid "Sacramento"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:325
+msgid "Shrikhand"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:326
+msgid "Tangerine"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:327
+msgid "Ubuntu"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:328
+msgid "VT323"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:329
+msgid "Varela Round"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:330
+msgid "Vampiro One"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:331
+msgid "Vollkorn"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:332
+msgid "Volkhov"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:333
+msgid "Yanone Kaffeesatz"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:347
+msgid "No Fonts weight"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:348
+msgid "Thin"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:349
+msgid "Light"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:350
+#: Desktop/sirat/inc/typography/customize/control-typography.php:368
+msgid "Normal"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:351
+msgid "Medium"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:352
+msgid "Bold"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:353
+msgid "Ultra Bold"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:367
+msgid "No Fonts Style"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:369
+msgid "Italic"
+msgstr ""
+
+#: Desktop/sirat/inc/typography/customize/control-typography.php:370
+msgid "Oblique"
+msgstr ""
+
+#: Desktop/sirat/no-results.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: Desktop/sirat/no-results.php:12
+msgid "Ready to publish your first post? Get started here."
+msgstr ""
+
+#: Desktop/sirat/no-results.php:14
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: Desktop/sirat/no-results.php:17
+msgid "Dont worry&hellip it happens to the best of us."
+msgstr ""
+
+#: Desktop/sirat/no-results.php:19
+msgid "Back to Home Page"
+msgstr ""
+
+#: Desktop/sirat/page-template/custom-home-page.php:43
+#: Desktop/sirat/page-template/custom-home-page.php:94
+#: Desktop/sirat/page-template/custom-home-page.php:134
+#: Desktop/sirat/page-template/custom-home-page.php:225
+#: Desktop/sirat/template-parts/content-audio.php:55
+#: Desktop/sirat/template-parts/content-gallery.php:43
+#: Desktop/sirat/template-parts/content-image.php:42
+#: Desktop/sirat/template-parts/content-image.php:67
+#: Desktop/sirat/template-parts/content-image.php:91
+#: Desktop/sirat/template-parts/content-video.php:54
+#: Desktop/sirat/template-parts/content.php:42
+#: Desktop/sirat/template-parts/content.php:67
+#: Desktop/sirat/template-parts/content.php:91
+#: Desktop/sirat/template-parts/grid-layout.php:26
+#: Desktop/sirat/inc/customizer.php:539
+#: Desktop/sirat/inc/customizer.php:545
+msgid "READ MORE"
+msgstr ""
+
+#: Desktop/sirat/page-template/custom-home-page.php:58
+#: Desktop/sirat/template-parts/single-post-layout.php:54
+msgid "Previous"
+msgstr ""
+
+#: Desktop/sirat/page-template/custom-home-page.php:62
+#: Desktop/sirat/template-parts/single-post-layout.php:51
+msgid "Next"
+msgstr ""
+
+#: Desktop/sirat/search.php:13
+#, php-format
+msgid "Results For: %s"
+msgstr ""
+
+#: Desktop/sirat/searchform.php:12
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: Desktop/sirat/searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: Desktop/sirat/sidebar.php:12
+msgid "Archives"
+msgstr ""
+
+#: Desktop/sirat/sidebar.php:18
+msgid "Meta"
+msgstr ""
+
+#: Desktop/sirat/template-parts/image-layout.php:28
+msgid "Pages:"
+msgstr ""
+
+#: Desktop/sirat/template-parts/single-post-layout.php:46
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr ""
+
+#: Desktop/sirat/template-parts/single-post-layout.php:52
+msgid "Next post:"
+msgstr ""
+
+#: Desktop/sirat/template-parts/single-post-layout.php:55
+msgid "Previous post:"
+msgstr ""
+
+#: Desktop/sirat/woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: Desktop/sirat/woocommerce/checkout/form-checkout.php:52
+msgid "Your order"
+msgstr ""
