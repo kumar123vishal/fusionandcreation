@@ -993,9 +993,7 @@ if(!function_exists( 'trusted_powered_by' )){
 	function trusted_powered_by(){
 		?>
 				<div class="site-info">
-					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'trusted' ) ); ?>"><?php printf( esc_html__( 'Powered by %s', 'trusted' ), 'WordPress' ); ?></a>
-					<span class="sep"> | </span>
-					<?php printf( esc_html__( 'Theme: %2$s by %1$s', 'trusted' ), 'UXL Themes', '<a href="https://uxlthemes.com/theme/trusted/" rel="designer">Trusted</a>' ); ?>
+					<p>© 2020 Copyright by Fusion and Creation</p>
 				</div>
 		<?php
 	}
