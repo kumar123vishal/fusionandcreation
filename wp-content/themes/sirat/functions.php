@@ -36,6 +36,9 @@ function sirat_setup() {
 		'default-color' => 'ffffff'
 	) );
 
+	//selective refresh for sidebar and widgets
+	add_theme_support( 'customize-selective-refresh-widgets' );
+
 	/*
 	 * Enable support for Post Formats.
 	 *
@@ -147,7 +150,7 @@ function sirat_widgets_init() {
 
 	register_sidebar( array(
 		'name'          => __( 'Single Product Sidebar', 'sirat' ),
-		'description'   => __( 'Appears on shop page', 'sirat' ),
+		'description'   => __( 'Appears on single product page', 'sirat' ),
 		'id'            => 'woocommerce-single-sidebar',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
@@ -275,7 +278,7 @@ function sirat_scripts() {
 	wp_enqueue_style( 'sirat-basic-style', get_stylesheet_uri() );
 	/* Inline style sheet */
 	require get_parent_theme_file_path( '/inline-style.php' );
-	wp_add_inline_style( 'sirat-basic-style',$custom_css );
+	wp_add_inline_style( 'sirat-basic-style',$sirat_custom_css );
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri().'/assets/css/fontawesome-all.css' );	
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.js', array('jquery') ,'',true);
 	wp_enqueue_script( 'jquery-superfish', get_template_directory_uri() . '/assets/js/jquery.superfish.js', array('jquery') ,'',true);
@@ -290,19 +293,12 @@ function sirat_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'sirat_scripts' );
 
-function sirat_ie_stylesheet(){
-	wp_enqueue_style('sirat-ie', get_template_directory_uri().'/css/ie.css');
-	wp_style_add_data( 'sirat-ie', 'conditional', 'IE' );
-}
-add_action('wp_enqueue_scripts','sirat_ie_stylesheet');
-
 function sirat_sanitize_dropdown_pages( $page_id, $setting ) {
   	// Ensure $input is an absolute integer.
   	$page_id = absint( $page_id );
   	// If $page_id is an ID of a published page, return it; otherwise, return the default.
   	return ( 'publish' == get_post_status( $page_id ) ? $page_id : $setting->default );
 }
-
 
 /*radio button sanitization*/
 function sirat_sanitize_choices( $input, $setting ) {
@@ -323,19 +319,89 @@ function sirat_string_limit_words($string, $word_limit) {
 	return implode(' ', $words);
 }
 
-define('SIRAT_CREDIT','https://www.vwthemes.com/themes/free-multipurpose-wordpress-theme/','sirat');
+define('SIRAT_CREDIT',__('https://www.vwthemes.com/themes/free-multipurpose-wordpress-theme/','sirat'));
 if ( ! function_exists( 'sirat_credit' ) ) {
 	function sirat_credit(){
-		echo "<a href=".esc_url(SIRAT_CREDIT)."></a>";
+		echo "<a href=".esc_url(SIRAT_CREDIT).">".esc_html__('Sirat WordPress Theme','sirat')."</a>";
 	}
 }
 
 // Change number or products per row to 3
 add_filter('loop_shop_columns', 'sirat_loop_columns');
 	if (!function_exists('sirat_loop_columns')) {
-		function sirat_loop_columns() {
-		return 3; // 3 products per row
+	function sirat_loop_columns() {
+		return get_theme_mod( 'sirat_products_per_row', '3' ); 
+		// 3 products per row
 	}
+}
+
+//Change number of products that are displayed per page (shop page)
+add_filter( 'loop_shop_per_page', 'sirat_products_per_page' );
+function sirat_products_per_page( $cols ) {
+  	return  get_theme_mod( 'sirat_products_per_page',9);
+}
+
+/* admin bar */
+function sirat_my_filter_head(){
+	remove_action('wp_head','_admin_bar_bump_cb');
+}
+add_action('get_header','sirat_my_filter_head');
+
+//Active Callback
+function sirat_slider_slideshow(){
+	if(get_theme_mod('sirat_slider_background_options') == 'Slideshow' ) {
+		return true;
+	}
+	return false;
+}
+
+function sirat_slider_image(){
+	if(get_theme_mod('sirat_slider_background_options') == 'Image' || get_theme_mod('sirat_slider_background_options') == 'Gradient' ) {
+		return true;
+	}
+	return false;
+}
+
+function sirat_slider_gradient(){
+	if(get_theme_mod('sirat_slider_background_options') == 'Gradient' ) {
+		return true;
+	}
+	return false;
+}
+
+function sirat_slider_video(){
+	if(get_theme_mod('sirat_slider_background_options') == 'Video' ) {
+		return true;
+	}
+	return false;
+}
+
+function sirat_slider_hide_show_title(){
+	if(get_theme_mod('sirat_slider_background_options') == 'Slideshow' ) {
+		return true;
+	}
+	return false;
+}
+
+function sirat_slider_hide_show_content(){
+	if(get_theme_mod('sirat_slider_background_options') == 'Slideshow' ) {
+		return true;
+	}
+	return false;
+}
+
+function sirat_slider_hide_show_button(){
+	if(get_theme_mod('sirat_slider_background_options') == 'Slideshow' ) {
+		return true;
+	}
+	return false;
+}
+
+function sirat_slider_hide_show_button_text(){
+	if(get_theme_mod('sirat_slider_background_options') == 'Image' || get_theme_mod('sirat_slider_background_options') == 'Gradient' || get_theme_mod('sirat_slider_background_options') == 'Slideshow' ) {
+		return true;
+	}
+	return false;
 }
 
 /* Implement the Custom Header feature. */
@@ -348,7 +414,13 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /* Customizer additions. */
-require get_template_directory() . '/inc/social-widgets/social-icon.php';
+require get_template_directory() . '/inc/themes-widgets/social-icon.php';
+
+/* Customizer additions. */
+require get_template_directory() . '/inc/themes-widgets/about-us-widget.php';
+
+/* Customizer additions. */
+require get_template_directory() . '/inc/themes-widgets/contact-us-widget.php';
 
 /* Typography */
 require get_template_directory() . '/inc/typography/ctypo.php';

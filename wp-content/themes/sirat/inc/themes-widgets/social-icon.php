@@ -6,11 +6,8 @@
 class Sirat_Social_Widget extends WP_Widget {
 	function __construct() {
 		parent::__construct(
-		// Base ID of your widget
 			'Sirat_Social_Widget', 
-			// Widget name will appear in UI
-			__('Social Icon', 'sirat'),
-			// Widget description
+			__('VW Social Icon', 'sirat'),
 			array( 'description' => __( 'Widget for Social icons section', 'sirat' ), ) 
 		);
 	}
@@ -19,8 +16,8 @@ class Sirat_Social_Widget extends WP_Widget {
 		?>
 		
 		<div class="widget">
-
 		<?php
+		$title = $instance['title'];
 		$title = apply_filters('widget_title', esc_html($instance['title']));
 		$facebook = $instance['facebook'];
         $twitter = $instance['twitter'];
@@ -47,7 +44,6 @@ class Sirat_Social_Widget extends WP_Widget {
 		<?php
 	}
 	
-	// Widget Backend 
 	public function form( $instance ) {
 
 		$title= ''; $facebook = ''; $twitter = '';$google = ''; $linkedin = '';  $pinterest = '';$tumblr = ''; $instagram = ''; $youtube = '';
@@ -102,7 +98,6 @@ class Sirat_Social_Widget extends WP_Widget {
 		<?php 
 	}
 	
-	// Updating widget replacing old instances with new
 	public function update( $new_instance, $old_instance ) {
 		$instance = array();	
 		$instance['title'] = (!empty($new_instance['title']) ) ? strip_tags($new_instance['title']) : '';	
@@ -117,7 +112,7 @@ class Sirat_Social_Widget extends WP_Widget {
 		 return $instance;
 	}
 }
-// Register and load the widget
+
 function sirat_custom_load_widget() {
 	register_widget( 'Sirat_Social_Widget' );
 }

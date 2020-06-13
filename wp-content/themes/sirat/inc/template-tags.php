@@ -98,3 +98,17 @@ function sirat_category_transient_flusher() {
 }
 add_action( 'edit_category', 'sirat_category_transient_flusher' );
 add_action( 'save_post',     'sirat_category_transient_flusher' );
+
+/**
+ * Posts pagination.
+ */
+if ( ! function_exists( 'sirat_blog_posts_pagination' ) ) {
+	function sirat_blog_posts_pagination() {
+		$pagination_type = get_theme_mod( 'sirat_blog_pagination_type', 'blog-page-numbers' );
+		if ( $pagination_type == 'blog-page-numbers' ) {
+			the_posts_pagination();
+		} else {
+			the_posts_navigation();
+		}
+	}
+}

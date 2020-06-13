@@ -19,25 +19,34 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<header role="banner">
-			<a class="screen-reader-text skip-link" href="#content"><?php esc_html_e( 'Skip to content', 'sirat' ); ?></a>
-			<div class="home-page-header">
-				<?php get_template_part('template-parts/header/top-header'); ?>
-				<?php get_template_part('template-parts/header/middle-header'); ?>			
-			</div>
-		</header>
+		
+	<?php if ( function_exists( 'wp_body_open' ) ) 
+		{
+			wp_body_open();
+		}else{
+			do_action('wp_body_open');
+		} 
+	?>
 
-		<?php if(get_theme_mod('sirat_loader_enable',true)==1){ ?>
-			<div id="preloader">
-			    <div id="status">
-			      <?php $theme_lay = get_theme_mod( 'sirat_loader_icon','Two Way');
-			        if($theme_lay == 'Two Way'){ ?>
-			        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/two-way.gif" alt="" role="img"/>
-			      <?php }else if($theme_lay == 'Dots'){ ?>
-			        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/dots.gif" alt="" role="img"/>
-			      <?php }else if($theme_lay == 'Rotate'){ ?>
-			        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/rotate.gif" alt="" role="img"/>          
-			      <?php } ?>
-			    </div>
-			</div>
-		<?php } ?>
+	<header role="banner">
+		<a class="screen-reader-text skip-link" href="#content"><?php esc_html_e( 'Skip to content', 'sirat' ); ?></a>
+		<div class="home-page-header">
+			<?php get_template_part('template-parts/header/top-header'); ?>
+			<?php get_template_part('template-parts/header/middle-header'); ?>
+		</div>
+	</header>
+
+	<?php if(get_theme_mod('sirat_loader_enable',true)==1){ ?>
+		<div id="preloader">
+		    <div id="status">
+		      <?php $sirat_theme_lay = get_theme_mod( 'sirat_loader_icon','Two Way');
+		        if($sirat_theme_lay == 'Two Way'){ ?>
+		        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/two-way.gif" alt="" role="img"/>
+		      <?php }else if($sirat_theme_lay == 'Dots'){ ?>
+		        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/dots.gif" alt="" role="img"/>
+		      <?php }else if($sirat_theme_lay == 'Rotate'){ ?>
+		        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/rotate.gif" alt="" role="img"/>
+		      <?php } ?>
+		    </div>
+		</div>
+	<?php } ?>

@@ -31,6 +31,28 @@ function sirat_logo_customize_register( $wp_customize ) {
 			'aria-orientation' => 'horizontal',
 		),
 	) );
+
+	$wp_customize->add_setting( 'sirat_logo_title_hide_show',array(
+      'default' => 1,
+      'transport' => 'refresh',
+      'sanitize_callback' => 'sirat_switch_sanitization'
+    ));  
+    $wp_customize->add_control( new Sirat_Toggle_Switch_Custom_Control( $wp_customize, 'sirat_logo_title_hide_show',array(
+      'label' => esc_html__( 'Show / Hide Site Title','sirat' ),
+      'priority'    => 10,
+      'section' => 'title_tagline'
+    )));
+
+    $wp_customize->add_setting( 'sirat_tagline_hide_show',array(
+      'default' => 1,
+      'transport' => 'refresh',
+      'sanitize_callback' => 'sirat_switch_sanitization'
+    ));  
+    $wp_customize->add_control( new Sirat_Toggle_Switch_Custom_Control( $wp_customize, 'sirat_tagline_hide_show',array(
+      'label' => esc_html__( 'Show / Hide Site Tagline','sirat' ),
+      'priority'    => 11,
+      'section' => 'title_tagline'
+    )));
 }
 add_action( 'customize_register', 'sirat_logo_customize_register' );
 

@@ -22,15 +22,13 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: Documents/sirat 2/languages\n"
 
 #: Desktop/sirat/404.php:12
-#: Desktop/sirat/inc/customizer.php:534
-#: Desktop/sirat/inc/customizer.php:541
-msgid '404 Not Found'
+#: Desktop/sirat/inc/customizer.php:1122
+msgid "404 Not Found"
 msgstr ""
 
 #: Desktop/sirat/404.php:13
-#: Desktop/sirat/inc/customizer.php:548
-#: Desktop/sirat/inc/customizer.php:555
-msgid 'Looks like you have taken a wrong turn, Dont worry, it happens to the best of us.'
+#: Desktop/sirat/inc/customizer.php:1136
+msgid "Looks like you have taken a wrong turn, Dont worry, it happens to the best of us."
 msgstr ""
 
 #: Desktop/sirat/no-result.php:17
@@ -38,25 +36,14 @@ msgid "Dont worry&hellip; it happens to the best of us."
 msgstr ""
 
 #: Desktop/sirat/404.php:15
-#: Desktop/sirat/inc/customizer.php:562
-#: Desktop/sirat/inc/customizer.php:568
+#: Desktop/sirat/inc/customizer.php:1149
 msgid "Go Back"
 msgstr ""
 
-#: Desktop/sirat/archive.php:45 Desktop/sirat/archive.php:77
-#: Desktop/sirat/archive.php:108 Desktop/sirat/archive.php:139
-#: Desktop/sirat/archive.php:172 Desktop/sirat/archive.php:207
-#: Desktop/sirat/archive.php:239 Desktop/sirat/image.php:38
+#: Desktop/sirat/image.php:38
 #: Desktop/sirat/image.php:71 Desktop/sirat/image.php:103
 #: Desktop/sirat/image.php:135 Desktop/sirat/image.php:169
 #: Desktop/sirat/image.php:204 Desktop/sirat/image.php:236
-#: Desktop/sirat/index.php:43 Desktop/sirat/index.php:76
-#: Desktop/sirat/index.php:108 Desktop/sirat/index.php:140
-#: Desktop/sirat/index.php:174 Desktop/sirat/index.php:209
-#: Desktop/sirat/index.php:241 Desktop/sirat/search.php:40
-#: Desktop/sirat/search.php:72 Desktop/sirat/search.php:103
-#: Desktop/sirat/search.php:134 Desktop/sirat/search.php:167
-#: Desktop/sirat/search.php:202 Desktop/sirat/search.php:234
 #: Desktop/sirat/single.php:38 Desktop/sirat/single.php:71
 #: Desktop/sirat/single.php:103 Desktop/sirat/single.php:135
 #: Desktop/sirat/single.php:169 Desktop/sirat/single.php:204
@@ -64,20 +51,10 @@ msgstr ""
 msgid "Previous page"
 msgstr ""
 
-#: Desktop/sirat/archive.php:46 Desktop/sirat/archive.php:78
-#: Desktop/sirat/archive.php:109 Desktop/sirat/archive.php:140
-#: Desktop/sirat/archive.php:173 Desktop/sirat/archive.php:208
-#: Desktop/sirat/archive.php:240 Desktop/sirat/image.php:39
+#: Desktop/sirat/image.php:39
 #: Desktop/sirat/image.php:72 Desktop/sirat/image.php:104
 #: Desktop/sirat/image.php:136 Desktop/sirat/image.php:170
 #: Desktop/sirat/image.php:205 Desktop/sirat/image.php:237
-#: Desktop/sirat/index.php:44 Desktop/sirat/index.php:77
-#: Desktop/sirat/index.php:109 Desktop/sirat/index.php:141
-#: Desktop/sirat/index.php:175 Desktop/sirat/index.php:210
-#: Desktop/sirat/index.php:242 Desktop/sirat/search.php:41
-#: Desktop/sirat/search.php:73 Desktop/sirat/search.php:104
-#: Desktop/sirat/search.php:135 Desktop/sirat/search.php:168
-#: Desktop/sirat/search.php:203 Desktop/sirat/search.php:235
 #: Desktop/sirat/single.php:39 Desktop/sirat/single.php:72
 #: Desktop/sirat/single.php:104 Desktop/sirat/single.php:136
 #: Desktop/sirat/single.php:170 Desktop/sirat/single.php:205
@@ -85,20 +62,10 @@ msgstr ""
 msgid "Next page"
 msgstr ""
 
-#: Desktop/sirat/archive.php:47 Desktop/sirat/archive.php:79
-#: Desktop/sirat/archive.php:110 Desktop/sirat/archive.php:141
-#: Desktop/sirat/archive.php:174 Desktop/sirat/archive.php:209
-#: Desktop/sirat/archive.php:241 Desktop/sirat/image.php:40
+#: Desktop/sirat/image.php:40
 #: Desktop/sirat/image.php:73 Desktop/sirat/image.php:105
 #: Desktop/sirat/image.php:137 Desktop/sirat/image.php:171
 #: Desktop/sirat/image.php:206 Desktop/sirat/image.php:238
-#: Desktop/sirat/index.php:45 Desktop/sirat/index.php:78
-#: Desktop/sirat/index.php:110 Desktop/sirat/index.php:142
-#: Desktop/sirat/index.php:176 Desktop/sirat/index.php:211
-#: Desktop/sirat/index.php:243 Desktop/sirat/search.php:42
-#: Desktop/sirat/search.php:74 Desktop/sirat/search.php:105
-#: Desktop/sirat/search.php:136 Desktop/sirat/search.php:169
-#: Desktop/sirat/search.php:204 Desktop/sirat/search.php:236
 #: Desktop/sirat/single.php:40 Desktop/sirat/single.php:73
 #: Desktop/sirat/single.php:105 Desktop/sirat/single.php:137
 #: Desktop/sirat/single.php:171 Desktop/sirat/single.php:206
@@ -124,7 +91,7 @@ msgid "Comments are closed."
 msgstr ""
 
 #: Desktop/sirat/footer.php:58
-msgid "&copy; Copyright 2019 -"
+msgid "By VWThemes-"
 msgstr ""
 
 #: Desktop/sirat/footer.php:63 
@@ -137,83 +104,82 @@ msgstr ""
 msgid "Primary Menu"
 msgstr ""
 
-#: Desktop/sirat/functions.php:59
+#: Desktop/sirat/functions.php:62
 msgid "Blog Sidebar"
 msgstr ""
 
-#: Desktop/sirat/functions.php:60
+#: Desktop/sirat/functions.php:63
 msgid "Appears on blog page sidebar"
 msgstr ""
 
-#: Desktop/sirat/functions.php:69
+#: Desktop/sirat/functions.php:72
 msgid "Page Sidebar"
 msgstr ""
 
-#: Desktop/sirat/functions.php:70 
-#: Desktop/sirat/functions.php:80
+#: Desktop/sirat/functions.php:73
+#: Desktop/sirat/functions.php:83
 msgid "Appears on page sidebar"
 msgstr ""
 
-#: Desktop/sirat/functions.php:79
+#: Desktop/sirat/functions.php:82
 msgid "Sidebar 3"
 msgstr ""
 
-#: Desktop/sirat/functions.php:89
+#: Desktop/sirat/functions.php:92
 msgid "Footer Navigation 1"
 msgstr ""
 
-#: Desktop/sirat/functions.php:90
+#: Desktop/sirat/functions.php:93
 msgid "Appears on footer 1"
 msgstr ""
 
-#: Desktop/sirat/functions.php:99
+#: Desktop/sirat/functions.php:102
 msgid "Footer Navigation 2"
 msgstr ""
 
-#: Desktop/sirat/functions.php:100
+#: Desktop/sirat/functions.php:103
 msgid "Appears on footer 2"
 msgstr ""
 
-#: Desktop/sirat/functions.php:109
+#: Desktop/sirat/functions.php:112
 msgid "Footer Navigation 3"
 msgstr ""
 
-#: Desktop/sirat/functions.php:110
+#: Desktop/sirat/functions.php:113
 msgid "Appears on footer 3"
 msgstr ""
 
-#: Desktop/sirat/functions.php:119
+#: Desktop/sirat/functions.php:122
 msgid "Footer Navigation 4"
 msgstr ""
 
-#: Desktop/sirat/functions.php:120
+#: Desktop/sirat/functions.php:123
 msgid "Appears on footer 4"
 msgstr ""
 
-#: Desktop/sirat/functions.php:129
+#: Desktop/sirat/functions.php:132
 msgid "Top Bar Social Media"
 msgstr ""
 
-#: Desktop/sirat/functions.php:130
+#: Desktop/sirat/functions.php:133
 msgid "Appears on top bar"
 msgstr ""
 
-#: Desktop/sirat/functions.php:139
-#: Desktop/sirat/functions.php:150
-#: Desktop/sirat/inc/customizer.php:94
+#: Desktop/sirat/functions.php:142
+#: Desktop/sirat/inc/customizer.php:105
 msgid "Shop Page Sidebar"
 msgstr ""
 
-#: Desktop/sirat/functions.php:140
+#: Desktop/sirat/functions.php:143
 msgid "Appears on shop page"
 msgstr ""
 
-#: Desktop/sirat/functions.php:149
-#: Desktop/sirat/inc/customizer.php:105
+#: Desktop/sirat/functions.php:152
+#: Desktop/sirat/inc/customizer.php:116
 msgid "Single Product Sidebar"
 msgstr ""
 
-#: Desktop/sirat/functions.php:329
+#: Desktop/sirat/functions.php:332
 msgid "Sirat WordPress Theme"
 msgstr ""
 
@@ -221,312 +187,736 @@ msgstr ""
 msgid "http://gmpg.org/xfn/11"
 msgstr ""
 
-#: Desktop/sirat/header.php:23
+#: Desktop/sirat/header.php:32
 msgid "Skip to content"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:28
+#: Desktop/sirat/inc/customizer.php:31
+msgid "Background Skin"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:32
+msgid "you can add the background skin with the background image."
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:35
+msgid "With Background Skin Mode"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:36
+msgid "Without Background Skin Mode."
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:53
 msgid "VW Settings"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:33
+#: Desktop/sirat/inc/customizer.php:59
 msgid "General Settings"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:38
+#: Desktop/sirat/inc/customizer.php:64
 msgid "Full Width"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:43
+#: Desktop/sirat/inc/customizer.php:69
 msgid "Width Layouts"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:44
+#: Desktop/sirat/inc/customizer.php:70
 msgid "Here you can change the width layout of Website."
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:53 Desktop/sirat/inc/customizer.php:63
-#: Desktop/sirat/inc/customizer.php:82
+#: Desktop/sirat/inc/customizer.php:79 Desktop/sirat/inc/customizer.php:89
+#: Desktop/sirat/inc/customizer.php:108
 msgid "Right Sidebar"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:58
+#: Desktop/sirat/inc/customizer.php:84
 msgid "Post Sidebar Layout"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:59
+#: Desktop/sirat/inc/customizer.php:85
 msgid "Here you can change the sidebar layout for posts. "
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:62 Desktop/sirat/inc/customizer.php:81
+#: Desktop/sirat/inc/customizer.php:88 Desktop/sirat/inc/customizer.php:108
 msgid "Left Sidebar"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:64 Desktop/sirat/inc/customizer.php:72
-#: Desktop/sirat/inc/customizer.php:83
+#: Desktop/sirat/inc/customizer.php:90 Desktop/sirat/inc/customizer.php:98
+#: Desktop/sirat/inc/customizer.php:109
 msgid "One Column"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:65
+#: Desktop/sirat/inc/customizer.php:91
 msgid "Three Columns"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:66
+#: Desktop/sirat/inc/customizer.php:92
 msgid "Four Columns"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:67
+#: Desktop/sirat/inc/customizer.php:93
 msgid "Grid Layout"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:77
+#: Desktop/sirat/inc/customizer.php:103
 msgid "Page Sidebar Layout"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:78
+#: Desktop/sirat/inc/customizer.php:104
 msgid "Here you can change the sidebar layout for pages. "
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:116
+#: Desktop/sirat/inc/customizer.php:104
+msgid "Featured Image Border Radius"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:104
+msgid "Featured Image Box Shadow"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:120
 msgid "Pre-Loader"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:121
-#: Desktop/sirat/inc/customizer.php:129
+#: Desktop/sirat/inc/customizer.php:125
+#: Desktop/sirat/inc/customizer.php:133
 msgid "Two Way"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:126
+#: Desktop/sirat/inc/customizer.php:130
 msgid "Pre-Loader Type"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:130
+#: Desktop/sirat/inc/customizer.php:134
 msgid "Dots"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:131
+#: Desktop/sirat/inc/customizer.php:135
 msgid "Rotate"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:137
+#: Desktop/sirat/inc/customizer.php:144
+msgid "Pre-Loader Background Color"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:150
 msgid "Top Bar Settings"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:149
+#: Desktop/sirat/inc/customizer.php:160
+#: Desktop/sirat/inc/customizer.php:1247
 msgid "Show / Hide Topbar"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:159
-msgid "Show / Hide Search"
+#: Desktop/sirat/inc/customizer.php:169
+msgid "Topbar Padding Top Bottom"
 msgstr ""
 
 #: Desktop/sirat/inc/customizer.php:170
-msgid "Sticky Header"
-msgstr ""
-
-#: Desktop/sirat/inc/customizer.php:179
-msgid "Add Phone Number"
-msgstr ""
-
-#: Desktop/sirat/inc/customizer.php:181
-msgid "+00 987 654 1230"
-msgstr ""
-
-#: Desktop/sirat/inc/customizer.php:192
-msgid "Add Email Address"
-msgstr ""
-
 #: Desktop/sirat/inc/customizer.php:194
-msgid "example@gmail.com"
+#: Desktop/sirat/inc/customizer.php:208
+#: Desktop/sirat/inc/customizer.php:222
+#: Desktop/sirat/inc/customizer.php:265
+#: Desktop/sirat/inc/customizer.php:294
+#: Desktop/sirat/inc/customizer.php:919
+#: Desktop/sirat/inc/customizer.php:933
+#: Desktop/sirat/inc/customizer.php:1167
+#: Desktop/sirat/inc/customizer.php:1181
+#: Desktop/sirat/inc/customizer.php:1195
+#: Desktop/sirat/inc/customizer.php:1209
+#: Desktop/sirat/inc/customizer.php:1438
+#: Desktop/sirat/inc/customizer.php:1452
+#: Desktop/sirat/inc/customizer.php:1502
+#: Desktop/sirat/inc/customizer.php:1516
+#: Desktop/sirat/inc/customizer.php:1589
+#: Desktop/sirat/inc/customizer.php:1603
+#: Desktop/sirat/inc/customizer.php:1662
+#: Desktop/sirat/inc/customizer.php:1676
+#: Desktop/sirat/inc/customizer.php:1690
+#: Desktop/sirat/inc/customizer.php:1704
+msgid "Enter a value in pixels. Example:20px"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:202
- Desktop/sirat/inc/customizer.php:176
-msgid "Left"
+#: Desktop/sirat/inc/customizer.php:184
+msgid "Show / Hide Search"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:193
+msgid "Search Font Size"
 msgstr ""
 
 #: Desktop/sirat/inc/customizer.php:207
-msgid "Header Layouts"
+msgid "Search Padding Top Bottom"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:217
-msgid "Slider Settings"
-msgstr ""
-
-#: Desktop/sirat/inc/customizer.php:227
-msgid "Show / Hide Slider"
+#: Desktop/sirat/inc/customizer.php:221
+msgid "Search Padding Left Right"
 msgstr ""
 
 #: Desktop/sirat/inc/customizer.php:238
-msgid "Slider Background Option"
+msgid "Search Border Radius"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:255
+#: Desktop/sirat/inc/customizer.php:1257
+msgid "Sticky Header"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:264
+msgid "Menus Font Size"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:264
+msgid "Menus Font Weight"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:280
+msgid "Menus Text Transform"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:238
+msgid "Default"
 msgstr ""
 
 #: Desktop/sirat/inc/customizer.php:239
-msgid "Please refresh the page after selecting background option"
+msgid "Uppercase"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:232
-#: Desktop/sirat/inc/customizer.php:242
-msgid "Slideshow"
+#: Desktop/sirat/inc/customizer.php:293
+msgid "Sticky Header Padding"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:243
-msgid "Image"
+#: Desktop/sirat/inc/customizer.php:308
+msgid "Add Phone Icon
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:244
-msgid "Gradient"
+#: Desktop/sirat/inc/customizer.php:320
+msgid "Add Phone Number"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:260
-#: Desktop/sirat/inc/customizer.php:277
-msgid "Select Slider Page"
+#: Desktop/sirat/inc/customizer.php:338
+msgid "Add Email Icon"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:261
-#: Desktop/sirat/inc/customizer.php:278
-msgid "Slider image size (1500 x 800)"
+#: Desktop/sirat/inc/customizer.php:350
+msgid "Add Email Address"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:316
-msgid "Select post"
+#: Desktop/sirat/inc/customizer.php:352
+msgid "example@gmail.com"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:328
-msgid "Slider Content Layouts"
+#: Desktop/sirat/inc/customizer.php:360
+msgid "Left"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:345
-msgid "Slider Excerpt length"
+#: Desktop/sirat/inc/customizer.php:365
+msgid "Header Layouts"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:363
-msgid "Slider Image Opacity"
+#: Desktop/sirat/inc/customizer.php:375
+msgid "Slider Settings"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:383
-msgid "Our Services Settings"
-msgstr ""
-
-#: Desktop/sirat/inc/customizer.php:393
-msgid "Add Section Title"
+#: Desktop/sirat/inc/customizer.php:385
+#: Desktop/sirat/inc/customizer.php:1267
+msgid "Show / Hide Slider"
 msgstr ""
 
 #: Desktop/sirat/inc/customizer.php:395
-msgid "AWESOME SERVICES"
+msgid "Show / Hide Slider Indicators"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:412
+msgid "Slider Background Option"
 msgstr ""
 
 #: Desktop/sirat/inc/customizer.php:406
+#: Desktop/sirat/inc/customizer.php:415
+msgid "Slideshow"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:416
+msgid "Image"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:417
+msgid "Gradient"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:418
+msgid "Gradient"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:430
+#: Desktop/sirat/inc/customizer.php:445
+msgid "Select Slider Page"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:431
+msgid "Slider image size (1500 x 800)"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:446
+msgid "Image size (1500 x 800)"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:459
+msgid "Slider Background Color"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:471
+msgid "Add video embed link"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:485
+msgid "Show / Hide Slider Title"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:496
+msgid "Show / Hide Slider Content"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:507
+msgid "Show / Hide Slider Button"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:517
+msgid "Add Slider Button Text"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:533
+msgid "Slider Content Layouts"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:547
+msgid "Slider Content Padding Top Bottom"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:548
+#: Desktop/sirat/inc/customizer.php:562
+msgid "Enter a value in %. Example:20%"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:561
+msgid "Slider Content Padding Left Right"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:579
+msgid "Slider Excerpt length"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:597
+msgid "Slider Image Opacity"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:621
+msgid "Slider Height"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:622
+msgid "Specify the slider height (px)"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:635
+msgid "Slider Transition Speed"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:642
+msgid "Our Services Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:657
+msgid "Add Section Title"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:659
+msgid "AWESOME SERVICES"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:670
 msgid "Add Section Text"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:408
+#: Desktop/sirat/inc/customizer.php:672
 msgid "Lorem ipsum is dummy text"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:433
+#: Desktop/sirat/inc/customizer.php:697
 msgid "Select Category to display Services"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:434
+#: Desktop/sirat/inc/customizer.php:698
 msgid "Image Size (50 x 50)"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:443
+#: Desktop/sirat/inc/customizer.php:708
+msgid "Add Services Icon"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:720
 msgid "Select About Page"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:444
+#: Desktop/sirat/inc/customizer.php:721
 msgid "Image Size (280 x 280)"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:457
+#: Desktop/sirat/inc/customizer.php:734
 msgid "Services Excerpt length"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:470
+#: Desktop/sirat/inc/customizer.php:750
+msgid "Add About Button Text"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:762
 msgid "Blog Post Settings"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:480
+#: Desktop/sirat/inc/customizer.php:770
+msgid "Post Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:787
 msgid "Post Date"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:490
+#: Desktop/sirat/inc/customizer.php:797
 msgid "Author"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:500
+#: Desktop/sirat/inc/customizer.php:807
 msgid "Comments"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:512
+#: Desktop/sirat/inc/customizer.php:817
+msgid "Tags"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:827
+msgid "Featured Image"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:839
 msgid "Excerpt length"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:530
+#: Desktop/sirat/inc/customizer.php:857
 msgid "Blog Layouts"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:543
-#: Desktop/sirat/inc/customizer.php:539
+#: Desktop/sirat/inc/customizer.php:922
+msgid "Add Meta Separator"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:923
+msgid "Add the seperator for meta box. Example: "|", "/", etc."
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:872
+msgid "Post Content"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:866
+#: Desktop/sirat/inc/customizer.php:876
+msgid "Excerpt"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:875
+msgid "Content"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:877
+msgid "No Content"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:886
+msgid "Add Excerpt Suffix"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:901
+msgid "Blog Pagination"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:903
+msgid "Numeric"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:904
+msgid "Older Posts/Newer Posts"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:909
+msgid "Button Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:918
+msgid "Padding Top Bottom"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:932
+msgid "Padding Left Right"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:949
+msgid "Button Border Radius"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:970
+#: Desktop/sirat/inc/customizer.php:1147
 msgid "Add Button Text"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:515
-msgid '404 Page Settings'
+#: Desktop/sirat/inc/customizer.php:980
+msgid "Related Posts Settings"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:525
-msgid 'Add Title'
+#: Desktop/sirat/inc/customizer.php:996
+msgid "Related Post"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:539
-msgid 'Add Text'
+#: Desktop/sirat/inc/customizer.php:1005
+msgid "Add Related Post Title"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:553
+#: Desktop/sirat/inc/customizer.php:1018
+msgid "Add Related Post Count"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1034
+msgid "Related Posts Excerpt length"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1047
+msgid "Single Post Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1057
+msgid "Featured Image"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1067
+msgid "comments"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1077
+msgid "Comment Form Width"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1077
+msgid "Enter a value in %. Example:50%"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1077
+msgid "Post Navigation"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1087
+#: Desktop/sirat/inc/customizer.php:1100
+msgid "Post Navigation Text"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1110
+msgid "404 Page Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1120
+#: Desktop/sirat/inc/customizer.php:1244
+msgid "Add Title"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1134
+#: Desktop/sirat/inc/customizer.php:1260
+msgid "Add Text"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1234
+msgid "No Results Page Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1234
+msgid "Nothing Found"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1234
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1157
+msgid "Social Icons Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1166
+#: Desktop/sirat/inc/customizer.php:1661
+msgid "Icon Font Size"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1180
+msgid "Icon Padding"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1194
+#: Desktop/sirat/inc/customizer.php:1689
+msgid "Icon Width"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1208
+#: Desktop/sirat/inc/customizer.php:1703
+msgid "Icon Height"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1225
+#: Desktop/sirat/inc/customizer.php:1720
+msgid "Icon Border Radius"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1237
+msgid "Responsive Media"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1277
+msgid "Show / Hide Metabox"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1287
+msgid "Show / Hide Sidebar"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1307
+msgid "Add Open Menu Icon"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1320
+msgid "Add Close Menu Icon"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1329
 msgid "Customize Home Page Settings"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:566
+#: Desktop/sirat/inc/customizer.php:1342
 msgid "First select static page in homepage setting for front page.Below given edit button is to customize Home Page. Just click on the edit option, add whatever elements you want to include in the homepage, save the changes and you are good to go."
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:570
+#: Desktop/sirat/inc/customizer.php:1346
 #: Desktop/sirat/template-parts/image-layout.php:33
 msgid "Edit"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:575
+#: Desktop/sirat/inc/customizer.php:1351
+msgid "Woocommerce Settings"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1363
+msgid "Shop Page Sidebar"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1374
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1385
+msgid "Related product"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1395
+msgid "Products Per Page"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1411
+msgid "Products Per Row"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1428
+msgid "Product Border"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1437
+msgid "Products Padding Top Bottom"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1451
+msgid "Products Padding Left Right"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1468
+msgid "Products Box Shadow"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1486
+msgid "Products Border Radius"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1501
+msgid "Products Button Padding Top Bottom"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1515
+msgid "Products Button Padding Left Right"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1532
+msgid "Products Button Border Radius"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1544
 msgid "Footer Settings"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:584
+#: Desktop/sirat/inc/customizer.php:1553
+msgid "Footer Background Color"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1562
+msgid "Footer Background Image"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1575
 msgid "Copyright Text"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:586
+#: Desktop/sirat/inc/customizer.php:1577
 msgid "Copyright 2019, ....."
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:598
+#: Desktop/sirat/inc/customizer.php:1588
+msgid "Copyright Font Size"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1602
+msgid "Copyright Padding Top Bottom"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1617
+msgid "Copyright Alignment"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1632
+#: Desktop/sirat/inc/customizer.php:1297
 msgid "Show / Hide Scroll To Top"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:603
-msgid "Right"
+#: Desktop/sirat/inc/customizer.php:1649
+msgid "Add Scroll to Top Icon"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:608
-msgid "Scroll To Top"
+#: Desktop/sirat/inc/customizer.php:1675
+msgid "Icon Padding Top Bottom"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:693
+#: Desktop/sirat/inc/customizer.php:1736
+msgid "Scroll To Top Alignment"
+msgstr ""
+
+#: Desktop/sirat/inc/customizer.php:1872
 msgid "SIRAT PRO"
 msgstr ""
 
-#: Desktop/sirat/inc/customizer.php:694
+#: Desktop/sirat/inc/customizer.php:1873
 msgid "UPGRADE PRO"
 msgstr ""
 
@@ -534,80 +924,158 @@ msgstr ""
 msgid "Logo Size"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:12
-msgid "Social Icon"
+#: Desktop/sirat/inc/logo/logo-resizer.php:41
+msgid "Show / Hide Site Title"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:14
+#: Desktop/sirat/inc/logo/logo-resizer.php:52
+msgid "Show / Hide Site Tagline"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:12
+msgid "VW Social Icon"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:14
 msgid "Widget for Social icons section"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:36
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:36
 msgid "Facebook"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:37
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:37
 msgid "Twitter"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:38
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:38
 msgid "Google"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:39
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:39
 msgid "Linkedin"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:40
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:40
 msgid "Pinterest"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:41
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:41
 msgid "Tumblr"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:42
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:42
 msgid "Instagram"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:43
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:43
 msgid "Youtube"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:67
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:67
+#: Desktop/sirat/inc/themes-widgets/about-us-widget.php:58
+#: Desktop/sirat/inc/themes-widgets/contact-us-widget.php:59
 msgid "Title:"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:71
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:71
 msgid "Facebook:"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:75
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:75
 msgid "Twitter:"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:79
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:79
 msgid "Google+:"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:83
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:83
 msgid "Linkedin:"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:87
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:87
 msgid "Instagram:"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:91
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:91
 msgid "Pinterest:"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:95
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:95
 msgid "Tumblr:"
 msgstr ""
 
-#: Desktop/sirat/inc/social-widgets/social-icon.php:99
+#: Desktop/sirat/inc/themes-widgets/social-icon.php:99
 msgid "Youtube:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/about-us-widget.php:10
+msgid "VW About us"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/about-us-widget.php:11
+msgid "Widget for about us section in sidebar"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/about-us-widget.php:62
+msgid "Author Name:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/about-us-widget.php:66
+msgid "Designation:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/about-us-widget.php:70
+msgid "Description:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/about-us-widget.php:74
+msgid "Button Text:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/about-us-widget.php:78
+msgid "Button Url:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/about-us-widget.php:82
+msgid "Image Url:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/contact-us-widget.php:10
+msgid "VW Contact us"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/contact-us-widget.php:11
+msgid "Widget for contact us section in sidebar"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/contact-us-widget.php:63
+msgid "Phone Number:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/contact-us-widget.php:67
+msgid "Email id:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/contact-us-widget.php:71
+msgid "Address:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/contact-us-widget.php:75
+msgid "Opening Time:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/contact-us-widget.php:79
+msgid "Longitude:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/contact-us-widget.php:83
+msgid "Latitude:"
+msgstr ""
+
+#: Desktop/sirat/inc/themes-widgets/contact-us-widget.php:87
+msgid "Contact Form Shortcode:"
 msgstr ""
 
 #: Desktop/sirat/inc/typography/ctypo.php:27
@@ -1187,32 +1655,33 @@ msgstr ""
 msgid "Back to Home Page"
 msgstr ""
 
-#: Desktop/sirat/page-template/custom-home-page.php:43
-#: Desktop/sirat/page-template/custom-home-page.php:94
-#: Desktop/sirat/page-template/custom-home-page.php:134
-#: Desktop/sirat/page-template/custom-home-page.php:225
-#: Desktop/sirat/template-parts/content-audio.php:55
-#: Desktop/sirat/template-parts/content-gallery.php:43
-#: Desktop/sirat/template-parts/content-image.php:42
-#: Desktop/sirat/template-parts/content-image.php:67
-#: Desktop/sirat/template-parts/content-image.php:91
-#: Desktop/sirat/template-parts/content-video.php:54
-#: Desktop/sirat/template-parts/content.php:42
-#: Desktop/sirat/template-parts/content.php:67
-#: Desktop/sirat/template-parts/content.php:91
-#: Desktop/sirat/template-parts/grid-layout.php:26
-#: Desktop/sirat/inc/customizer.php:539
-#: Desktop/sirat/inc/customizer.php:545
+#: Desktop/sirat/page-template/custom-home-page.php:48
+#: Desktop/sirat/page-template/custom-home-page.php:110
+#: Desktop/sirat/page-template/custom-home-page.php:151
+#: Desktop/sirat/page-template/custom-home-page.php:241
+#: Desktop/sirat/template-parts/content-audio.php:66
+#: Desktop/sirat/template-parts/content-gallery.php:54
+#: Desktop/sirat/template-parts/content-image.php:53
+#: Desktop/sirat/template-parts/content-image.php:92
+#: Desktop/sirat/template-parts/content-image.php:130
+#: Desktop/sirat/template-parts/content-video.php:66
+#: Desktop/sirat/template-parts/content.php:53
+#: Desktop/sirat/template-parts/content.php:92
+#: Desktop/sirat/template-parts/content.php:130
+#: Desktop/sirat/template-parts/grid-layout.php:39
+#: Desktop/sirat/inc/customizer.php:516
+#: Desktop/sirat/inc/customizer.php:749
+#: Desktop/sirat/inc/customizer.php:969
 msgid "READ MORE"
 msgstr ""
 
-#: Desktop/sirat/page-template/custom-home-page.php:58
-#: Desktop/sirat/template-parts/single-post-layout.php:54
+#: Desktop/sirat/page-template/custom-home-page.php:73
+#: Desktop/sirat/template-parts/single-post-layout.php:58
 msgid "Previous"
 msgstr ""
 
-#: Desktop/sirat/page-template/custom-home-page.php:62
-#: Desktop/sirat/template-parts/single-post-layout.php:51
+#: Desktop/sirat/page-template/custom-home-page.php:77
+#: Desktop/sirat/template-parts/single-post-layout.php:55
 msgid "Next"
 msgstr ""
 
@@ -1248,11 +1717,11 @@ msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr ""
 
-#: Desktop/sirat/template-parts/single-post-layout.php:52
+#: Desktop/sirat/template-parts/single-post-layout.php:54
 msgid "Next post:"
 msgstr ""
 
-#: Desktop/sirat/template-parts/single-post-layout.php:55
+#: Desktop/sirat/template-parts/single-post-layout.php:57
 msgid "Previous post:"
 msgstr ""
 

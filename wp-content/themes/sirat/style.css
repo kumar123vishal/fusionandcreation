@@ -4,7 +4,7 @@ Theme URI: https://www.vwthemes.com/themes/free-multipurpose-wordpress-theme/
 Author: VW Themes
 Author URI: https://www.vwthemes.com/
 Description: Sirat is a multipurpose theme known primarily for its simplicity apart from being clean, user-friendly as well as finely organised making it a very good choice when it comes to WordPress themes relevant for various business purposes like a blog, portfolio, business website and WooCommerce storefront with a beautiful & professional design. The theme comes with a new header layout and there are more options of sidebar layout available for post and pages. Apart from that, there are more width options as well as preload options available. Another important thing with this particular WordPress theme is that it is lightweight and can be extended to the limit one likes. It also has the availability of the enable and disable button. With some of its exemplary features like WooCommerce, retina ready, clean code, CTA, bootstrap framework, customization options, mobile friendliness etc, This WP theme has content limit option and is also accompanied with blog post settings.  Another important characteristic with it is the beauty it has and also the design that is immensely professional. Sirat is a fast theme and is accompanied with some of the best SEO practices in the online world. You have the option of customization a mentioned earlier making it extremely beneficial for personal portfolio. Apart from all this, Sirat is modern, luxurious, stunning as well as animated making it a fine option for the businesses where creativity is involved and it also has scroll top layout. Siart is translation ready and supports AR_ARABIC, DE_GERMAN, ES_SPANISH, FR_FRENCH, IT_ITALIAN, RU_RUSSIAN, ZH_CHINESE, TR_TURKISH languages. It fits creative business, small businesses restaurants, medical shops, startups, corporate businesses, online agencies and firms, portfolios, ecommerce. Sirat has banner opacity and colour changing feature included. Demo: https://www.vwthemes.net/vw-sirat/
-Version: 0.5.5
+Version: 0.6.4
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl.html
 Text Domain: sirat
@@ -80,7 +80,7 @@ input[type="tel"]:focus,
 textarea:focus,
 input[type="submit"]:focus,
 #comments:focus,
-select{
+select:focus{
   outline: 1px dotted #000;
   border-bottom: 1px solid #000;
   text-decoration:none !important;
@@ -308,7 +308,7 @@ input[type="submit"]:hover {
   color: #121212;
 }
 .middle-header {
-  padding: 5px 0;
+  padding: 15px 0;
   border-bottom: solid 3px #febe00;
 }
 /*.page-template-custom-home-page .middle-header {
@@ -362,7 +362,6 @@ p.site-description {
   position: absolute;
   top: 20%;
   transform: translateY(-50%);
-  width: 100%;
   right: 0;
   text-align: right;
   margin-right: 28px;
@@ -423,12 +422,12 @@ input.search-field {
   border: none;
 }
 .search-box a:focus{
-  outline: 1px dotted #fff;
-  border-bottom: 1px solid #fff;
+  outline: 1px dotted #000;
+  border-bottom: 1px solid #000;
   text-decoration: none !important;
   padding: 15px 0 12px 0;
 }
-.serach_inner input:focus, a.closepop:focus, a.closepop:focus{
+.serach_inner input:focus, a.closepop:focus{
   outline: 1px dotted #fff;
   border-bottom: 1px solid #fff;
   text-decoration: none !important;
@@ -448,7 +447,6 @@ ul.list_nav {
   padding: 0;
   font-weight: 400;
   font-size: 14px;
-  text-transform: uppercase;
   font-weight: bold;
 }
 .main-menu-navigation li{
@@ -572,6 +570,27 @@ ul.list_nav {
   display: none;
 }
 
+/* --------- Slider Refresh--------- */
+.customize-partial-edit-shortcuts-shown .slider-refresh,
+.customize-partial-edit-shortcuts-shown .services-refresh {
+  height: 300px;
+  text-align: center;
+  outline: 3px dashed #008ec2;
+  outline-offset: -30px;
+  display: block;
+}
+.slider-refresh,
+.services-refresh {
+  display: none;
+}
+.slider-refresh h3,
+.services-refresh h3{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px !important;
+  color: #008ec2;
+}
 /* --------- SLIDER--------- */
 #slider{ 
   max-width:100%; 
@@ -635,6 +654,9 @@ ul.list_nav {
   font-weight: bold;
   text-transform: uppercase;
 }
+#slider .inner_carousel h1 a, #slider .slider-inner-content h1 A{
+  color: #fff;
+}
 #slider .inner_carousel p, #slider .slider-inner-content p {
   color: #fff;
   font-size: 16px;
@@ -643,6 +665,15 @@ ul.list_nav {
 }
 .more-btn, #slider .slider-inner-content .more-btn{
   margin: 25px 0;
+}
+#slider .carousel-indicators li{
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 10px;
+}
+#slider .carousel-indicators .active{
+  background: #febe00;
 }
 /*-------------Slider Background------------*/
 #slider .slider-box-content {
@@ -774,6 +805,9 @@ ul.list_nav {
 iframe,
 .entry-audio audio{
   width: 100%;
+}
+.wp-block-audio audio{
+  min-width: 100%;
 }
 .entry-video video {
   width: 100%;
@@ -975,8 +1009,9 @@ iframe,
 a.scrollup{
   color: #febe00;
 }
-a.scrollup span {
-  display: none;
+
+a.scrollup:focus{
+  border-bottom: solid 1px #febe00;
 }
 /* --------- Blog Page ------- */
 article p a{
@@ -1077,6 +1112,19 @@ h1.page-title {
 }
 .nav-links {
   margin-bottom: 20px;
+}
+.related-post {
+  clear: both;
+}
+.related-post h2{
+  padding-top: 10px;
+}
+.related-post h3 {
+  padding: 15px 0px 15px;
+}
+.related-post .entry-content p{
+  padding-top: 0;
+  margin-top: 0;
 }
 /* --------- POST --------- */
 h2#reply-title {
@@ -1221,7 +1269,9 @@ h2#reply-title {
   float:left;
   margin-top: 10px;
 }
-
+p.comment-form-comment label {
+  display: block;
+}
 /*---------------- Sidebar--------------- */
 #sidebar .custom-social-icons {
   text-align: center;
@@ -1390,6 +1440,7 @@ h2#reply-title {
 .nav-next{
   float:left;
   width:50%;
+  margin-bottom: 20px;
 }
 .nav-next{
   text-align:right;
@@ -1398,6 +1449,33 @@ h2#reply-title {
 .nav-previous{
   text-align:left;
   font-size: 18px;
+}
+.nav-previous a{
+  padding: 15px 15px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 13px;
+  float: right;
+  font-weight: bold;
+  float: left;
+  text-align: left;
+  background: #121212;
+}
+.nav-next a{
+  padding: 15px 15px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 13px;
+  float: right;
+  font-weight: bold;
+  float: right;
+  text-align: right;
+  background: #121212;
+}
+.nav-previous a:hover, .nav-next a:hover {
+  background: #febe00;
+  color: #121212;
+  transition-duration: 0.5s;
 }
 
 /*------------ PAGE CSS -------------*/
@@ -1466,15 +1544,34 @@ h2#reply-title {
 }
 
 /*------------- PAGINATION CSS --------------*/
-.pagination {
+.woocommerce nav.woocommerce-pagination {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.woocommerce nav.woocommerce-pagination ul li a{
+  font-size: 14px;
+  font-weight: bold;
+}
+.woocommerce nav.woocommerce-pagination ul{
+  border: none;
+}
+.woocommerce nav.woocommerce-pagination ul li{
+  border-right: none;
+}
+.woocommerce nav.woocommerce-pagination ul li a:hover {
+  background: #febe00;
+  color: #121212;
+}
+.pagination, .woocommerce-pagination {
   clear:both;
   position:relative;
   font-size:14px;
   line-height:13px;
-  float:right;
-  font-weight:bold;width:100%;
+  float:none;
+  font-weight:bold;
+  width:100%;
 } 
-.pagination span, .pagination a {
+.pagination span, .pagination a, .woocommerce nav.woocommerce-pagination ul li span, .woocommerce nav.woocommerce-pagination ul li a {
   display:block;
   float:left;
   margin: 2px 5px 2px 0;
@@ -1493,7 +1590,7 @@ h2#reply-title {
   background: #febe00;
   color: #121212;
 } 
-.pagination .current {
+.pagination .current, .woocommerce nav.woocommerce-pagination ul li span.current {
   padding: 10px 15px;
   background: #febe00;
   font-weight: bold;
@@ -1520,7 +1617,7 @@ h2#reply-title {
   position: absolute !important; 
 }
 .post-navigation a { 
-  color: #121212; 
+  color: #fff; 
   display: block; 
 }
 .post-navigation span { 
@@ -1528,9 +1625,9 @@ h2#reply-title {
 }
 .post-navigation .meta-nav { 
   font-size: 13px;
-  letter-spacing: 0.076923077em; 
+  /*letter-spacing: 0.076923077em; 
   line-height: 1.6153846154; 
-  text-transform: uppercase; 
+  text-transform: none; */
 }
 .post-navigation .post-title {
   display: inline; 
@@ -1549,10 +1646,7 @@ h2#reply-title {
 .post-navigation:after {
   right: 54px;
 }
-.post-navigation a:hover,
-.post-navigation a:focus {
-  color: #febe00;
-}
+
 .post-navigation .nav-links {
   position: relative;
 }
@@ -1641,18 +1735,18 @@ h2#reply-title {
   font-size: 18px;
   margin-right: 10px;
 }
-.post-navigation span.meta-nav {
+/*.post-navigation span.meta-nav {
   font-size: 14px;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: bold;
   letter-spacing: 1px;
   border-top: 1px solid #f1f1f1;
   border-bottom: 1px solid #f1f1f1;
   padding: 15px;
-}
-.post-navigation span.meta-nav:hover {
+}*/
+/*.post-navigation span.meta-nav:hover {
   color: #febe00;
-}
+}*/
 .post-navigation .post-title {
   display: none;
 }
@@ -1665,6 +1759,60 @@ h2#reply-title {
 }
 .post-navigation:after {
   right: 54px;
+}
+/*------------- About us widgets --------------*/
+#footer .more-button, #sidebar .more-button {
+  margin: 20px 0px 10px 0px;
+}
+#footer a.custom_read_more, #sidebar a.custom_read_more {
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #121212;
+  background: #febe00;
+  letter-spacing: 1px;
+}
+#footer p.custom_author, #sidebar p.custom_author {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 0 4px;
+}
+#footer p.custom_designation, #sidebar p.custom_designation {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 4px;
+}
+#sidebar a.custom_read_more:hover {
+  background: #121212;
+  color: #fff;
+}
+#footer a.custom_read_more:hover{
+  background: #fff;
+  color: #febe00;
+}
+.custom-about-us h3.custom_title {
+  text-align: left;
+}
+.custom-about-us {
+  text-align: center;
+}
+/*------------- Contact us widgets --------------*/
+.custom_details {
+  font-size: 15px;
+  font-weight: bold;
+}
+.custom-social-icons input[type="text"], .custom-social-icons input[type="email"], .custom-social-icons textarea {
+  margin: 0;
+  background: transparent;
+}
+form.wpcf7-form {
+  margin-top: 20px;
+}
+#sidebar .custom-contact-us form {
+  text-align: left;
+}
+#footer .custom-contact-us label{
+  margin-bottom: 0;
 }
 /*------------- WOOCOMMERCE CSS --------------*/
 .woocommerce ul.products li.product .button,
@@ -1831,19 +1979,22 @@ h3#order_review_heading{
   text-align: center;
   padding: 0;
 }
-.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
-  width: 29%;
-}
 .select2-container--default .select2-selection--single{
   border: 1px solid #bcbcbc;
 }
+h2.woocommerce-loop-product__title{
+  font-size: 25px !important;
+}
+.admin-bar .home-page-header{
+  margin-top: 32px;
+}
 /*------------------RESPONSIVE MEIDA-------------------*/
-@media screen and (max-width: 1000px){
-  .menubar .nav ul li a:focus,
-  a.closebtn.mobile-menu:focus{
-    outline: 1px dotted #fff;
-    border-bottom: 1px solid #fff;
+@media screen and (max-width:375px) {
+  #slider .carousel-caption, #slider .slider-box-content{
+    top:40%;
   }
+}
+@media screen and (max-width: 1000px){
   .toggle-nav {
     display: none;
     position: relative;
@@ -2011,6 +2162,9 @@ h3#order_review_heading{
     color: #000;
     background: transparent !important;
   }
+  .admin-bar .home-page-header{
+    margin-top: 46px;
+  }
 }
 @media screen and (max-width:720px) {
   #slider .inner_carousel,.search-box,.logo,.top-bar .custom-social-icons,.top-bar{
@@ -2089,13 +2243,16 @@ h3#order_review_heading{
     top: 40%;
   }
   .logo .site-title {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px){
   .box .inner-content:after{
     width: 250px;
     height: 250px;
+  }
+  .admin-bar .home-page-header{
+    margin-top: 32px;
   }
 }
 /* safari */

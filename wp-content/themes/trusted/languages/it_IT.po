@@ -1,0 +1,835 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Trusted 1.6.3\n"
+"POT-Creation-Date: 2019-10-15 15:34+0100\n"
+"PO-Revision-Date: 2019-10-15 15:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: uxlthemes.com\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: functions/translations.php\n"
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Pagina non trovata."
+
+#: 404.php:13
+msgid "Maybe try a search?"
+msgstr "Forse vuoi provare una ricerca?"
+
+#: 404.php:15
+#, fuzzy
+msgid "Browse our pages."
+msgstr "Sfoglia le nostre pagine."
+
+#. translators: %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Una risposta a &ldquo;%s&rdquo;"
+
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Risposta a &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Risposte a &ldquo;%2$s&rdquo;"
+
+#: comments.php:62
+msgid "Previous"
+msgstr "Precedente"
+
+#: comments.php:63
+msgid "Next"
+msgstr "Successivo"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr "Nessun risultato"
+
+#: content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Pronto a pubblicare il tuo primo post? <a href=\"%1$s\">Inizia qui</a>."
+
+#: content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Ci dispiace, ma non ha trovato i termini di ricerca. Riprova con alcune "
+"parole chiave diverse."
+
+#: content-none.php:24
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Sembra che non possiamo trovare quello che stai cercando. Forse la ricerca "
+"pu&ograve; aiutare."
+
+#: content-page.php:16 content-single.php:21 content.php:34
+msgid "Pages:"
+msgstr "Pagine:"
+
+#. translators: %s: Name of current post
+#: content-page.php:27 functions/template-tags.php:76
+#, php-format
+msgid "Edit %s"
+msgstr "Modifica %s"
+
+#: content.php:40
+msgid "Continue Reading"
+msgstr "Continua a leggere"
+
+#: functions.php:30
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#: functions.php:31
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+#: functions.php:101
+#, fuzzy
+msgid "Person Working on Laptop"
+msgstr "Persona che lavora su computer portatile"
+
+#: functions.php:127
+msgid "Blog Sidebar"
+msgstr "Blog Sidebar"
+
+#: functions.php:129
+#, fuzzy
+msgid "Sidebar for posts, blog index and archives."
+msgstr "Barra laterale per i messaggi, l'indice dei blog e gli archivi."
+
+#: functions.php:137
+msgid "Home Page Sidebar"
+msgstr "Home Page Sidebar"
+
+#: functions.php:139
+#, fuzzy
+msgid "Sidebar for the home page template."
+msgstr "Barra laterale per il modello di home page."
+
+#: functions.php:147
+msgid "Page Sidebar"
+msgstr "Sidebar pagina"
+
+#: functions.php:149
+#, fuzzy
+msgid "Sidebar for standard pages."
+msgstr "Barra laterale per pagine standard."
+
+#: functions.php:157
+msgid "Shop Sidebar"
+msgstr "Barra laterale del negozio"
+
+#: functions.php:159
+#, fuzzy
+msgid "Sidebar for WooCommerce pages."
+msgstr "Barra laterale per le pagine WooCommerce."
+
+#: functions.php:167
+msgid "Top Bar"
+msgstr "Barra superiore"
+
+#: functions.php:169
+#, fuzzy
+msgid "Add your own content above the header."
+msgstr "Aggiungi il tuo contenuto sopra l'intestazione."
+
+#: functions.php:177
+msgid "Footer Column 1"
+msgstr "Footer Colonna 1"
+
+#: functions.php:187
+msgid "Footer Column 2"
+msgstr "Footer Colonna 2"
+
+#: functions.php:197
+msgid "Footer Column 3"
+msgstr "Colonna 3 Piè di Pagina"
+
+#: functions.php:207
+#, fuzzy
+msgid "Middle Footer"
+msgstr "Piè di pagina centrale"
+
+#: functions.php:233 functions.php:285
+msgctxt "Google fonts: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:248 functions.php:297
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: functions/customizer.php:24
+msgid "Site Title Color"
+msgstr "Colore titolo sito"
+
+#: functions/customizer.php:38
+#, fuzzy
+msgid "Disable Static Front Page Content"
+msgstr "Disattivare il contenuto statico della prima pagina frontale"
+
+#: functions/customizer.php:57
+msgid "Phone Number"
+msgstr "Numero di telefono"
+
+#: functions/customizer.php:74
+#, fuzzy
+msgid "Site Title UPPERCASE"
+msgstr "Titolo del sito in MAIUSCOLO"
+
+#: functions/customizer.php:92
+#, fuzzy
+msgid "Header Image Layout"
+msgstr "Layout dell'immagine dell'intestazione"
+
+#: functions/customizer.php:93
+#, fuzzy
+msgid "Select behind or below the logo/menu area."
+msgstr "Selezionare dietro o sotto l'area del logo/menu."
+
+#: functions/customizer.php:117
+#, fuzzy
+msgid "Horizontal Offset (%)"
+msgstr "Offset orizzontale (%)"
+
+#: functions/customizer.php:118
+#, fuzzy
+msgid ""
+"Used to make the main focus of your image appear on smaller screens or where "
+"the image is wider than the visible screen. The default setting is 65%."
+msgstr ""
+"Utilizzato per far apparire la messa a fuoco principale dell'immagine su "
+"schermi più piccoli o dove l'immagine è più ampia dello schermo visibile. "
+"L'impostazione predefinita è il 65%."
+
+#: functions/customizer.php:142
+msgid "Background Color"
+msgstr "Colore di sfondo"
+
+#: functions/customizer.php:143
+#, fuzzy
+msgid ""
+"Only takes effect if not using an image or an image with some transparency."
+msgstr ""
+"Ha effetto solo se non si utilizza un'immagine o un'immagine con una certa "
+"trasparenza."
+
+#: functions/customizer.php:161
+msgid "Color"
+msgstr "Colore"
+
+#: functions/customizer.php:180
+#, fuzzy
+msgid "No Color (Transparent Background)"
+msgstr "Nessun colore (sfondo trasparente)"
+
+#: functions/customizer.php:189 functions/theme-help.php:70
+msgid "Theme Options"
+msgstr "Opzioni Tema"
+
+#: functions/customizer.php:206
+#, fuzzy
+msgid "Enable Reveal Animations"
+msgstr "Attivare Rivelare le animazioni"
+
+#: functions/customizer.php:223
+#, fuzzy
+msgid "Primary Menu Centered"
+msgstr "Menu primario centrato"
+
+#: functions/customizer.php:241
+#, fuzzy
+msgid "Primary Menu UPPERCASE"
+msgstr "Menu Primario MAIUSCOLO"
+
+#: functions/customizer.php:258
+#, fuzzy
+msgid "Show Search Icon In Menu"
+msgstr "Icona Mostra Icona Ricerca Nel Menu"
+
+#: functions/customizer.php:259
+#, fuzzy
+msgid ""
+"Search icon will only display if you have set your own menu as Primary Menu "
+"in Appearance >> Menus"
+msgstr ""
+"L'icona di ricerca viene visualizzata solo se è stato impostato il proprio "
+"menu come menu principale in Aspetto >>> Menu"
+
+#: functions/customizer.php:277
+#, fuzzy
+msgid "Disable Headings Underline"
+msgstr "Disattivare le intestazioni Sottolineare"
+
+#: functions/customizer.php:278
+msgid "H1, H2, H3, H4, H5, H6 headings in post/page content"
+msgstr "H1, H2, H3, H4, H5, H5, H6 nel contenuto della posta/pagina"
+
+#: functions/customizer.php:289
+msgid "Page Title Alignment"
+msgstr "Allineamento Titolo Pagina"
+
+#: functions/customizer.php:293 functions/customizer.php:374
+msgid "Left"
+msgstr "Sinistra"
+
+#: functions/customizer.php:294
+msgid "Center"
+msgstr "Centro"
+
+#: functions/customizer.php:295 functions/customizer.php:375
+msgid "Right"
+msgstr "Destra"
+
+#: functions/customizer.php:314
+#, fuzzy
+msgid "Page Title Icon"
+msgstr "Icona Titolo Pagina Icona Titolo"
+
+#: functions/customizer.php:335
+#, fuzzy
+msgid "Blog Title Icon"
+msgstr "Icona Titolo Blog Icona Titolo"
+
+#: functions/customizer.php:356
+#, fuzzy
+msgid "Shop Title Icon"
+msgstr "Icona Titolo negozio"
+
+#: functions/customizer.php:370 functions/customizer.php:762
+msgid "Sidebar Position"
+msgstr "﻿Posizione Barra Laterale"
+
+#: functions/customizer.php:391
+msgid "Enable Sticky Footer"
+msgstr "Abilita footer fisso"
+
+#: functions/customizer.php:392
+#, fuzzy
+msgid ""
+"Position the footer at the bottom of the screen on pages with little content"
+msgstr ""
+"Posizionare il piè di pagina nella parte inferiore dello schermo su pagine "
+"con poco contenuto"
+
+#: functions/customizer.php:404
+msgid "Header Style"
+msgstr "Stile intestazione"
+
+#: functions/customizer.php:408
+msgid "Dark"
+msgstr "Scuro"
+
+#: functions/customizer.php:409
+msgid "Light"
+msgstr "Chiaro"
+
+#: functions/customizer.php:426
+msgid "Primary Color"
+msgstr "Colore primario"
+
+#: functions/customizer.php:446
+msgid "Secondary Color"
+msgstr "Colore Secondario"
+
+#: functions/customizer.php:466
+msgid "Text Color"
+msgstr "Colore testo"
+
+#: functions/customizer.php:486
+msgid "Headings Color"
+msgstr "Colore Intestazioni"
+
+#: functions/customizer.php:495
+msgid "Typography"
+msgstr "Tipografia"
+
+#: functions/customizer.php:506
+msgid "Header"
+msgstr "Header"
+
+#: functions/customizer.php:519
+msgid "Navigation"
+msgstr "Navigazione"
+
+#: functions/customizer.php:532
+msgid "Page Title"
+msgstr "Titolo della pagina"
+
+#: functions/customizer.php:545
+msgid "Content"
+msgstr "Contenuto"
+
+#: functions/customizer.php:558
+msgid "Headings"
+msgstr "Intestazioni"
+
+#: functions/customizer.php:571
+#, fuzzy
+msgid "Footer"
+msgstr "Footer Colonna 1"
+
+#: functions/customizer.php:581
+#, fuzzy
+msgid "Static Homepage Options"
+msgstr "Opzioni della pagina iniziale statica"
+
+#: functions/customizer.php:591
+msgid "Featured Services"
+msgstr "Servizi Proposti"
+
+#: functions/customizer.php:592
+#, fuzzy
+msgid ""
+"By default this displays the 3 most recent posts. To override this, select a "
+"page for the first feature."
+msgstr ""
+"Per impostazione predefinita, vengono visualizzati i 3 messaggi più recenti. "
+"Per sovrascriverlo, selezionare una pagina per la prima funzione."
+
+#: functions/customizer.php:609
+#, fuzzy
+msgid "Activate Featured Section"
+msgstr "Attivare la sezione in primo piano"
+
+#: functions/customizer.php:626
+msgid "Enable 'Read More' Buttons"
+msgstr "Attivare i pulsanti 'Leggi di più'"
+
+#: functions/customizer.php:648
+msgid "Feature "
+msgstr "Caratteristica "
+
+#: functions/customizer.php:669
+msgid "Icon"
+msgstr "Icona"
+
+#: functions/customizer.php:688 functions/customizer.php:752
+msgid "Select Page"
+msgstr "Seleziona Pagina"
+
+#: functions/customizer.php:689
+#, fuzzy
+msgid ""
+"Displays title and excerpt of selected page. You can add an optional hand-"
+"crafted excerpt in the page editor (make sure []excerpt is checked in Screen "
+"Options)."
+msgstr ""
+"Visualizza il titolo e l'estratto della pagina selezionata. È possibile "
+"aggiungere un estratto fatto a mano opzionale nell'editor di pagine "
+"(assicurarsi che []estratto sia selezionato in Opzioni schermo)."
+
+#: functions/customizer.php:699
+msgid "About Section"
+msgstr "Sezione Chi Siamo"
+
+#: functions/customizer.php:700
+#, fuzzy
+msgid "Displays title, excerpt and featured image of selected page."
+msgstr ""
+"Visualizza il titolo, l'estratto e l'immagine della pagina selezionata."
+
+#: functions/customizer.php:717
+#, fuzzy
+msgid "Activate About Section"
+msgstr "Attivare la sezione Informazioni su"
+
+#: functions/customizer.php:734
+msgid "Enable 'Read More' Button"
+msgstr "Attivare il pulsante 'Leggi tutto'"
+
+#: functions/customizer.php:766
+msgid "Image Left"
+msgstr "Immagine a sinistra"
+
+#: functions/customizer.php:767
+msgid "Image Right"
+msgstr "Immagine a destra"
+
+#: functions/customizer.php:768
+msgid "Stacked"
+msgstr "Impilato"
+
+#: functions/customizer.php:769
+#, fuzzy
+msgid "Stacked (Centered)"
+msgstr "Accatastato (centrato)"
+
+#: functions/customizer.php:778
+#, fuzzy
+msgid "Shop Tabs"
+msgstr "Schede del negozio"
+
+#: functions/customizer.php:797
+#, fuzzy
+msgid "Activate Shop Tabs"
+msgstr "Attivare le schede del negozio"
+
+#: functions/customizer.php:798
+#, fuzzy
+msgid "Requires WooCommerce Plugin."
+msgstr "Richiede il plugin WooCommerce."
+
+#: functions/customizer.php:825
+#, fuzzy
+msgid "Home Page Shop Tabs"
+msgstr "Home Page Schede del negozio"
+
+#: functions/customizer.php:836
+#, fuzzy
+msgid "Recent Posts Section"
+msgstr "Sezione Messaggi recenti"
+
+#: functions/customizer.php:837
+#, fuzzy
+msgid "Displays your most recent posts."
+msgstr "Visualizza i tuoi messaggi più recenti."
+
+#: functions/customizer.php:854
+#, fuzzy
+msgid "Activate Recent Posts Section"
+msgstr "Attivare la sezione Messaggi recenti"
+
+#: functions/customizer.php:862 functions/extras.php:910
+#, fuzzy
+msgid "From Our Blog"
+msgstr "Dal nostro blog"
+
+#: functions/customizer.php:873
+#, fuzzy
+msgid "Title"
+msgstr "Nessun Titolo"
+
+#: functions/customizer.php:882
+#, fuzzy
+msgid "Call-to-action Panel"
+msgstr "Pannello di chiamata ad azione"
+
+#: functions/customizer.php:883
+#, fuzzy
+msgid "Displays phone number and optional button link to selected page."
+msgstr ""
+"Visualizza il numero di telefono e il collegamento del pulsante opzionale "
+"alla pagina selezionata."
+
+#: functions/customizer.php:900
+#, fuzzy
+msgid "Activate Call-to-action Panel"
+msgstr "Attivare il pannello di chiamata ad azione"
+
+#: functions/customizer.php:918
+#, fuzzy
+msgid "Select Page For Button Link"
+msgstr "Selezionare la pagina per il collegamento dei pulsanti"
+
+#: functions/customizer.php:935
+msgid "Background Image"
+msgstr "Immagine di Sfondo"
+
+#: functions/customizer.php:944 functions/customizer.php:955
+#: functions/customizer.php:1017
+msgid "Go Pro"
+msgstr "Passa a Pro"
+
+#: functions/customizer.php:946 functions/theme-help.php:86
+#, fuzzy
+msgid ""
+"Upgrade to Trusted Pro for even more cool features and customization options."
+msgstr ""
+"Passa a Trusted Pro per ottenere caratteristiche e opzioni di "
+"personalizzazione ancora più interessanti."
+
+#: functions/customizer.php:1000
+#, fuzzy
+msgid "More options available"
+msgstr "Più opzioni disponibili"
+
+#: functions/customizer.php:1009
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: functions/customizer.php:1047
+#, fuzzy
+#| msgid "Search "
+msgid "Search..."
+msgstr "Cerca "
+
+#: functions/extras.php:33
+#, fuzzy
+msgid "Create your Primary Menu here"
+msgstr "Crea qui il tuo Menu Primario"
+
+#: functions/extras.php:64 functions/extras.php:740 functions/extras.php:771
+#: functions/extras.php:827 functions/extras.php:938
+msgid "Read More"
+msgstr "Leggi di più"
+
+#: functions/extras.php:369 functions/extras.php:382
+msgid "Search for:"
+msgstr "Cerca per:"
+
+#: functions/extras.php:374
+msgid "All"
+msgstr "Tutti"
+
+#: functions/extras.php:382
+msgid "Search "
+msgstr "Cerca "
+
+#: functions/extras.php:680
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: functions/extras.php:683
+msgid "404 Error"
+msgstr "Errore 404"
+
+#: functions/extras.php:1011
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions/extras.php:1011
+#, php-format
+msgid "Powered by %s"
+msgstr "Powered by %s"
+
+#: functions/extras.php:1013
+#, fuzzy, php-format
+msgid "Theme: %2$s by %1$s"
+msgstr "Tema: %2$s da %1$s"
+
+#: functions/extras.php:1083
+msgid "Recent"
+msgstr "Recente"
+
+#: functions/extras.php:1089
+msgid "Featured"
+msgstr "In evidenza"
+
+#: functions/extras.php:1095
+msgid "Sale"
+msgstr "Vendita"
+
+#: functions/extras.php:1101
+#, fuzzy
+msgid "Top Selling"
+msgstr "I più venduti"
+
+#: functions/extras.php:1107
+msgid "Top Rated"
+msgstr "Più votati"
+
+#: functions/template-tags.php:36
+msgid "No Comments"
+msgstr "Nessun commento"
+
+#: functions/template-tags.php:38
+msgid " Comments"
+msgstr " Commenti"
+
+#: functions/template-tags.php:40
+msgid "1 Comment"
+msgstr "1 Commento"
+
+#. translators: used between list items, there is a space after the comma
+#: functions/template-tags.php:61
+msgid ", "
+msgstr ", "
+
+#: functions/theme-help.php:19 functions/theme-help.php:32
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr "Benvenuti su %1$s %2$s"
+
+#: functions/theme-help.php:19
+#, fuzzy
+msgid "Theme Help"
+msgstr "Aiuto a tema"
+
+#: functions/theme-help.php:38
+#, fuzzy
+msgid "Theme Links"
+msgstr "Link a tema"
+
+#: functions/theme-help.php:39
+msgid "Theme Page"
+msgstr "Pagina del Tema"
+
+#: functions/theme-help.php:40
+#, fuzzy
+msgid "Theme Demo"
+msgstr "Dimostrazione a tema"
+
+#: functions/theme-help.php:41 functions/theme-help.php:57
+msgid "Theme Documentation"
+msgstr "Leggere la documentazione a tema"
+
+#: functions/theme-help.php:42
+msgid "Theme Support"
+msgstr "Supporto per il tema"
+
+#: functions/theme-help.php:43
+#, fuzzy
+msgid "Rate this theme"
+msgstr "Valuta questo tema"
+
+#: functions/theme-help.php:50
+#, fuzzy, php-format
+msgid "Getting Started with %s"
+msgstr "Per iniziare con %s"
+
+#: functions/theme-help.php:60
+#, fuzzy
+msgid ""
+"Do you need help to setup, configure and customize this theme? Check out the "
+"extensive theme documentation on our website."
+msgstr ""
+"Hai bisogno di aiuto per impostare, configurare e personalizzare questo "
+"tema? Consulta l'ampia documentazione tematica sul nostro sito web."
+
+#: functions/theme-help.php:64
+#, php-format
+msgid "View %s Documentation"
+msgstr "Visualizza %s Documentation"
+
+#: functions/theme-help.php:73
+#, fuzzy, php-format
+msgid "%s makes use of the Customizer for the theme settings."
+msgstr "%s utilizza il Customizer per le impostazioni del tema."
+
+#: functions/theme-help.php:77
+#, fuzzy
+msgid "Customize Theme"
+msgstr "Personalizza tema"
+
+#: functions/theme-help.php:83
+msgid "Upgrade"
+msgstr "Aggiorna"
+
+#: functions/theme-help.php:90
+#, fuzzy
+msgid "GO PRO"
+msgstr "Passa a Pro"
+
+#: functions/theme-help.php:112
+#, fuzzy, php-format
+msgid "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+msgstr ""
+"%1$s è orgogliosamente portato a voi da %2$s. Se ti piace questo tema, "
+"%3$s :)"
+
+#: functions/theme-help.php:112
+msgid "Trusted Review"
+msgstr ""
+
+#: functions/theme-help.php:112
+#, fuzzy
+msgid "rate it"
+msgstr "valutarlo"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Trusted"
+msgstr "Trusted"
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid "https://uxlthemes.com/theme/trusted/"
+msgstr "https://uxlthemes.com/theme/trusted/"
+
+#. Author of the plugin/theme
+msgid "UXL Themes"
+msgstr "UXL Themes"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://uxlthemes.com"
+msgstr "https://uxlthemes.com"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+msgid "Blank Canvas (Full Width and No Container)"
+msgstr "Tela grezza (piena larghezza e senza contenitore)"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+msgid "Blank Canvas"
+msgstr "Tela grezza"
+
+#, fuzzy
+#~ msgid "Requires WooCommerce Plugin"
+#~ msgstr "Richiede il Plugin WooCommerce"
+
+#, fuzzy
+#~ msgid ""
+#~ "Trusted WordPress theme is simple yet elegant with a fully responsive "
+#~ "design. It has been designed to be modern and fresh and is suitable for "
+#~ "many type of website, blog or e-commerce store. It is designed to "
+#~ "integrate with the WooCommerce plugin to give your site an attractive "
+#~ "shop front. The colors can be changed in the customizer and previewed "
+#~ "fast in real time. The header has both dark and light styles and features "
+#~ "telephone number as well as WooCommerce account/login/register and "
+#~ "shopping cart. The static front page features 3 (three) featured services "
+#~ "with icon selection, WooCommerce tabs to showcase your products and a "
+#~ "full width phone/call-to-action panel. There is also a Blank Canvas page "
+#~ "template with no page title or sidebar, containing only the masthead and "
+#~ "footer, ideal for use with page builder plugins. The Trusted theme also "
+#~ "comes with 9 (nine) widget areas including 4 (four) distinct sidebars for "
+#~ "blog, page, home page and shop. Other widget areas allow you to add your "
+#~ "own content to the top bar, 3 (three) footer columns and an extra middle "
+#~ "footer area. It also supports a main primary navigation menu and a footer "
+#~ "menu which has support for social media icons/links."
+#~ msgstr ""
+#~ "Trusted tema WordPress è semplice ma elegante con un design completamente "
+#~ "reattivo. E 'stato progettato per essere moderno e fresco ed è adatto a "
+#~ "molti tipi di sito web, blog o negozio di e-commerce. È stato progettato "
+#~ "per integrarsi con il plugin WooCommerce per dare al tuo sito una vetrina "
+#~ "attraente. I colori possono essere cambiati nel customizer e visualizzati "
+#~ "in anteprima in tempo reale. L'intestazione ha stili chiari e scuri e "
+#~ "dispone di numero di telefono, account/login/login/registro di "
+#~ "WooCommerce e carrello della spesa. La pagina anteriore statica presenta "
+#~ "3 (tre) servizi con selezione di icone, schede WooCommerce per mostrare i "
+#~ "vostri prodotti e un pannello telefonico/call-to-action a tutta "
+#~ "larghezza. C'è anche un modello di pagina Blank Canvas senza titolo di "
+#~ "pagina o barra laterale, contenente solo la testa d'albero e il piè di "
+#~ "pagina, ideale per l'uso con i plugin del costruttore di pagine. Il tema "
+#~ "Trusted viene fornito anche con 9 (nove) aree widget tra cui 4 (quattro) "
+#~ "distinte barre laterali per blog, pagine, home page e shop. Altre aree "
+#~ "widget consentono di aggiungere il proprio contenuto alla barra "
+#~ "superiore, 3 (tre) colonne di piè di pagina e un'area di piè di pagina "
+#~ "centrale in più. Supporta anche un menu principale di navigazione "
+#~ "principale e un menu a piè di pagina che supporta le icone e i link dei "
+#~ "social media."

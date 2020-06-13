@@ -8,7 +8,7 @@
  */
 ?>
 
-<div class="middle-header <?php if( get_theme_mod( 'sirat_sticky_header') != '') { ?> header-sticky"<?php } else { ?>close-sticky <?php } ?>">
+<div class="middle-header <?php if( get_theme_mod( 'sirat_sticky_header') != '') { ?>header-sticky"<?php } else { ?>close-sticky <?php } ?>">
   <div class="container">
     <?php $theme_lay = get_theme_mod( 'sirat_header_content_option','Left');
       if($theme_lay == 'Left'){ ?>
@@ -21,18 +21,24 @@
               <?php $blog_info = get_bloginfo( 'name' ); ?>
                 <?php if ( ! empty( $blog_info ) ) : ?>
                   <?php if ( is_front_page() && is_home() ) : ?>
-                    <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                    <?php if( get_theme_mod('sirat_logo_title_hide_show',true) != ''){ ?>
+                      <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                    <?php } ?>
                   <?php else : ?>
-                    <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+                    <?php if( get_theme_mod('sirat_logo_title_hide_show',true) != ''){ ?>
+                      <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+                    <?php } ?>
                   <?php endif; ?>
                 <?php endif; ?>
                 <?php
                   $description = get_bloginfo( 'description', 'display' );
                   if ( $description || is_customize_preview() ) :
                 ?>
-                <p class="site-description">
-                  <?php echo esc_html( $description ); ?>
-                </p>
+                <?php if( get_theme_mod('sirat_tagline_hide_show',true) != ''){ ?>
+                  <p class="site-description">
+                    <?php echo esc_html( $description ); ?>
+                  </p>
+                <?php } ?>
               <?php endif; ?>
             </div>
           </div>
@@ -44,10 +50,14 @@
         <div class="logo">
           <?php if( has_custom_logo() ){ sirat_the_custom_logo();
             }else{ ?>
+            <?php if( get_theme_mod('sirat_logo_title_hide_show',true) != ''){ ?>
               <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+            <?php } ?>
               <?php $description = get_bloginfo( 'description', 'display' );
               if ( $description || is_customize_preview() ) : ?>
+            <?php if( get_theme_mod('sirat_tagline_hide_show',true) != ''){ ?>
               <p class="site-description"><?php echo esc_html($description); ?></p>
+            <?php } ?>
           <?php endif; } ?>
         </div>
         <div class="test">
@@ -62,10 +72,14 @@
             <div class="logo">
               <?php if( has_custom_logo() ){ sirat_the_custom_logo();
                 }else{ ?>
+                <?php if( get_theme_mod('sirat_logo_title_hide_show',true) != ''){ ?>
                   <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+                <?php } ?>
                   <?php $description = get_bloginfo( 'description', 'display' );
                   if ( $description || is_customize_preview() ) : ?>
+                <?php if( get_theme_mod('sirat_tagline_hide_show',true) != ''){ ?>
                   <p class="site-description"><?php echo esc_html($description); ?></p>
+                <?php } ?>
               <?php endif; } ?>
             </div>
           </div>
