@@ -856,7 +856,7 @@
 		display: inline-block;
 	}
 	.buttom-header .site-branding {
-	    padding-bottom: 15px;
+	    padding-bottom: 0px;
 	    width: 100%;
 	}
 	.buttom-header .wrap-right {
@@ -875,6 +875,7 @@
 	-------------------------------------------*/
 	.menu-wrap .main-navigation {
 		width: 83%;
+		margin-bottom: 15px: 
 	}
 	.menu-wrap .header-search {
 		width: 15%;
