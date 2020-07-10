@@ -79,6 +79,10 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+// custom code
+
+define('FS_METHOD', 'direct');
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
